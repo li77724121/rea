@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[വെബ്സൈറ്റ്](https://rea.tools/) · [ഗൈഡുകൾ](https://rea.tools/guides/) · [ഉദാഹരണങ്ങൾ](https://rea.tools/showcase/)**
+**[വെബ്സൈറ്റ്](https://rea.one1.kdns.fr/) · [ഗൈഡുകൾ](https://rea.one1.kdns.fr/guides/) · [ഉദാഹരണങ്ങൾ](https://rea.one1.kdns.fr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Discord-ൽ REA കമ്മ്യൂണിറ്റിയിൽ ചേരുക" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -30,7 +30,7 @@
 
 > [!IMPORTANT]
 > REA ലഭ്യമാക്കേണ്ടത് [morluto/rea](https://github.com/morluto/rea),
-> [rea.tools](https://rea.tools/), അല്ലെങ്കിൽ [rea-agents npm package](https://www.npmjs.com/package/rea-agents) എന്നിവയിൽ നിന്നാണ്.
+> [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), അല്ലെങ്കിൽ [rea-agents npm package](https://www.npmjs.com/package/rea-agents) എന്നിവയിൽ നിന്നാണ്.
 > ഈ ഔദ്യോഗിക ഉറവിടങ്ങളിലെ ഇൻസ്റ്റലേഷൻ, റിലീസ് ലിങ്കുകൾ പിന്തുടരുക. സമാനമായ
 > repository പേരോ പകർത്തിയ README-യോ മാത്രം ഒരു download ഔദ്യോഗികമാണെന്ന് ഉറപ്പാക്കുന്നില്ല.
 
@@ -66,7 +66,7 @@ Native binaries, JavaScript, Electron apps, .NET assemblies, websites എന്�
 
 Setup നിങ്ങളുടെ agent-ിൽ REA രജിസ്റ്റർ ചെയ്യുകയും അനുയോജ്യമായ workflow നിർദ്ദേശങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യുകയും ചെയ്യുന്നു. Native analysis-നായി നിലവിലുള്ള Hopper, Ghidra, IDA, അല്ലെങ്കിൽ Kuna installation ഉപയോഗിക്കാം; അനുമതി നൽകിയാൽ setup-ന് Hopper ഇൻസ്റ്റാൾ ചെയ്യാനും കഴിയും. Static JavaScript analysis-ന് native analysis engine ആവശ്യമില്ല.
 
-> **[REA വെബ്സൈറ്റ് സന്ദർശിക്കുക](https://rea.tools/)** — setup നിർദ്ദേശങ്ങൾക്കും ചിത്രങ്ങളോടുകൂടിയ ഗൈഡുകൾക്കും യഥാർത്ഥ case study-കൾക്കും.
+> **[REA വെബ്സൈറ്റ് സന്ദർശിക്കുക](https://rea.one1.kdns.fr/)** — setup നിർദ്ദേശങ്ങൾക്കും ചിത്രങ്ങളോടുകൂടിയ ഗൈഡുകൾക്കും യഥാർത്ഥ case study-കൾക്കും.
 
 ## ദ്രുതാരംഭം
 
@@ -205,7 +205,7 @@ Provider തിരഞ്ഞെടുക്കാൻ [CLI guide](../cli.md#choose
 
 ## ഉദാഹരണങ്ങൾ
 
-<a href="https://rea.tools/showcase/">
+<a href="https://rea.one1.kdns.fr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="DX-Ball sound-pan, Notion clipboard-bridge, TH04 bullet-ring എന്നിവയുടെ ചിത്രീകരണങ്ങൾ" src="../assets/rea-showcases.svg" />
@@ -216,27 +216,27 @@ Provider തിരഞ്ഞെടുക്കാൻ [CLI guide](../cli.md#choose
 
 ഒരു sound call-നെ അതിന്റെ position-to-pan helper വരെ പിന്തുടരുക, instructions പരിശോധിക്കുക, അപൂർണ്ണമായ pseudocode-നെ C-യാക്കി മാറ്റുക. ഈ പുനർനിർമ്മാണം യഥാർത്ഥ x86-ലെ 3,205 test cases വിജയിക്കുകയും compile ചെയ്ത function-ന്റെ 63 bytes-ഉം അതേപടി പുനരുത്പാദിപ്പിക്കുകയും ചെയ്യുന്നു.
 
-[Case study വായിക്കുക](https://rea.tools/showcase/dx-ball/) ·
+[Case study വായിക്കുക](https://rea.one1.kdns.fr/showcase/dx-ball/) ·
 [പുനർനിർമ്മാണ repository](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: Electron clipboard bridge പിന്തുടരുക
 
 Renderer-ന്റെ clipboard API കണ്ടെത്തി, അതിനെ preload-ഉം IPC-ഉം വഴി main process വരെ പിന്തുടർന്ന് rich clipboard format പരിശോധിക്കുക.
 
-[Case study വായിക്കുക](https://rea.tools/showcase/notion/)
+[Case study വായിക്കുക](https://rea.one1.kdns.fr/showcase/notion/)
 
 ### TH04: DOS bullet-ring കണക്കുകൂട്ടൽ വീണ്ടെടുക്കുക
 
 യഥാർത്ഥ PC-98 game-ന്റെ 16-bit instructions പരിശോധിക്കുക, fixed, aimed angle കണക്കുകൂട്ടലുകൾ വീണ്ടെടുക്കുക, പുനർനിർമ്മിച്ച C++-നെ ചരിത്രപരമായ compiler output-ുമായി താരതമ്യം ചെയ്യുക.
 
-[Case study വായിക്കുക](https://rea.tools/showcase/th04/) ·
+[Case study വായിക്കുക](https://rea.one1.kdns.fr/showcase/th04/) ·
 [പുനർനിർമ്മാണ repository](https://github.com/N0zoM1z0/th04)
 
 ### REA ഉപയോഗിച്ച് RL പരിതസ്ഥിതികൾ നിർമ്മിക്കുക
 
 വെബ് ആപ്പ് സെഷൻ റെക്കോർഡ് ചെയ്ത് API ടൂളുകളാക്കി AI ഏജന്റിന് ഉപയോഗിക്കാവുന്ന പരിതസ്ഥിതി എക്‌സ്‌പോർട്ട് ചെയ്യുക. AgentEnv ഉപയോഗിച്ച് പ്രവർത്തിപ്പിച്ച ശേഷം RL പരിശീലനത്തിനോ മൂല്യനിർണയത്തിനോ ടാസ്‌ക്കുകളും റിവാർഡ് പരിശോധനകളും ചേർക്കുക.
 
-[പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി](https://rea.tools/guides/rl-environments/) ·
+[പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [X-ൽ ഡെമോ കാണുക](https://x.com/reatools/status/2112574822584918075?s=20)
 
 REA ഉപയോഗിച്ച് നിങ്ങൾ രസകരമായ എന്തെങ്കിലും പരിശോധിച്ചിട്ടുണ്ടെങ്കിൽ അത് കാണാൻ ഞങ്ങൾ ആഗ്രഹിക്കുന്നു. പരിശോധിച്ച target, നിങ്ങളുടെ ചോദ്യം, REA എങ്ങനെ സഹായിച്ചു, നിങ്ങൾ കണ്ടെത്തിയത് എന്നിവ ഉൾപ്പെടുത്തി [issue](https://github.com/morluto/rea/issues) അല്ലെങ്കിൽ [pull request](https://github.com/morluto/rea/pulls) വഴി നിങ്ങളുടെ case പങ്കിടുക.
@@ -273,7 +273,7 @@ agent-env run ./my-env
 
 പ്രവർത്തനം തുടങ്ങുന്നതും പ്രതികരിക്കുന്നതും പരിശോധിക്കുന്ന അടിസ്ഥാന ടെസ്റ്റിനൊപ്പം പ്രവർത്തിപ്പിക്കാവുന്ന പരിതസ്ഥിതി REA എക്‌സ്‌പോർട്ട് ചെയ്യുന്നു. ടാസ്‌ക് ലക്ഷ്യങ്ങളും റിവാർഡ് പരിശോധനകളും നിർവചിക്കാനും പരിശീലനം നടത്താനും RL ഫ്രെയിംവർക്കുമായി ബന്ധിപ്പിക്കുക.
 
-[പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി](https://rea.tools/guides/rl-environments/) ·
+[പരിതസ്ഥിതി നിർമ്മാണ മാർഗ്ഗദർശി](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [പരിതസ്ഥിതി റഫറൻസ്](../agent-environments.md) ·
 [X-ൽ ഡെമോ കാണുക](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -344,7 +344,7 @@ npx rea-agents@latest setup
 
 ## ഡോക്യുമെന്റേഷൻ
 
-വെബ്സൈറ്റിലെ [പ്രായോഗിക ഗൈഡുകൾ](https://rea.tools/guides/) ഉപയോഗിച്ച് തുടങ്ങുക.
+വെബ്സൈറ്റിലെ [പ്രായോഗിക ഗൈഡുകൾ](https://rea.one1.kdns.fr/guides/) ഉപയോഗിച്ച് തുടങ്ങുക.
 കൃത്യമായ options, prerequisites, result contracts എന്നിവയ്ക്കായി:
 
 - [Installation and setup](../installation.md): agent registration, provider configuration, updates, uninstall.

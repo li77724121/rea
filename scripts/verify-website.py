@@ -14,8 +14,9 @@ from website import NOTES_FIXTURES, SITE_ORIGIN, authored_markdown, page_url, sy
 from website_i18n import is_language_code
 
 LEGACY_ORIGIN = "morluto.github.io"
+SITE_HOST = urlsplit(SITE_ORIGIN).netloc
 SITE_TEXT_URL = re.compile(
-    r"https?://(?:rea\.tools|morluto\.github\.io)/[^\s<>\"'`]+", re.IGNORECASE
+    rf"https?://(?:{re.escape(SITE_HOST)}|morluto\.github\.io)/[^\s<>\"'`]+", re.IGNORECASE
 )
 
 
@@ -246,8 +247,8 @@ def check_search_metadata(site, pages):
                 errors.append(f"{label}: hreflang must include its own canonical")
             for language, target in page.alternates.items():
                 parsed = urlsplit(target)
-                if parsed.scheme != "https" or parsed.netloc != "rea.tools":
-                    errors.append(f"{label}: hreflang needs absolute rea.tools URLs")
+                if parsed.scheme != "https" or parsed.netloc != SITE_HOST:
+                    errors.append(f"{label}: hreflang needs absolute {SITE_HOST} URLs")
                     continue
                 target_path = (site / unquote(parsed.path).lstrip("/")).resolve()
                 if target_path.is_dir():
@@ -269,7 +270,7 @@ def check_search_metadata(site, pages):
             errors.append("sitemap.xml: needs a sitemap-protocol urlset")
         if len(urls) != len(set(urls)) or set(urls) != indexable:
             errors.append(
-                "sitemap.xml: must contain each indexable page once, using its rea.tools URL"
+                f"sitemap.xml: must contain each indexable page once, using its {SITE_HOST} URL"
             )
         if any(
             len(entry) != 1 or entry[0].tag != f"{namespace}loc" for entry in sitemap
@@ -301,7 +302,7 @@ def check_search_metadata(site, pages):
         ]
         if directives != expected:
             errors.append(
-                "robots.txt: expected crawl access and one absolute rea.tools sitemap directive"
+                f"robots.txt: expected crawl access and one absolute {SITE_HOST} sitemap directive"
             )
 
     image = site / "assets/social-card.png"
@@ -346,10 +347,10 @@ def check_site(site):
                 errors.append(f"{label}: invalid URL {reference!r}: {error}")
                 continue
             if url.hostname == LEGACY_ORIGIN and (url.path == "/rea" or url.path.startswith("/rea/")):
-                errors.append(f"{label}: obsolete website URL: {reference}; use rea.tools")
+                errors.append(f"{label}: obsolete website URL: {reference}; use {SITE_HOST}")
                 continue
-            if url.hostname == "rea.tools":
-                if url.scheme != "https" or url.netloc != "rea.tools":
+            if url.hostname == SITE_HOST:
+                if url.scheme != "https" or url.netloc != SITE_HOST:
                     errors.append(f"{label}: website URL must use {SITE_ORIGIN}: {reference}")
                     continue
                 target = (site / unquote(url.path).lstrip("/")).resolve()

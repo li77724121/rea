@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Site web](https://rea.tools/) · [Ghiduri](https://rea.tools/guides/) · [Studii de caz](https://rea.tools/showcase/)**
+**[Site web](https://rea.one1.kdns.fr/) · [Ghiduri](https://rea.one1.kdns.fr/guides/) · [Studii de caz](https://rea.one1.kdns.fr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Alătură-te comunității REA pe Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -30,7 +30,7 @@
 
 > [!IMPORTANT]
 > Descarcă REA din [morluto/rea](https://github.com/morluto/rea),
-> de pe [rea.tools](https://rea.tools/) sau prin [pachetul npm rea-agents](https://www.npmjs.com/package/rea-agents).
+> de pe [rea.one1.kdns.fr](https://rea.one1.kdns.fr/) sau prin [pachetul npm rea-agents](https://www.npmjs.com/package/rea-agents).
 > Urmează linkurile de instalare și către versiunile publicate oferite de aceste surse oficiale.
 > Un nume de repository asemănător sau un README copiat nu dovedește că descărcarea provine dintr-o sursă oficială.
 
@@ -66,7 +66,7 @@ REA conectează agentul tău la unelte pentru inspectarea fișierelor binare nat
 
 Programul de configurare înregistrează REA în agentul tău și instalează instrucțiunile corespunzătoare pentru fluxul de lucru. Analiza nativă poate folosi o instalare existentă de Hopper, Ghidra, IDA sau Kuna; programul de configurare poate instala opțional Hopper, cu aprobarea ta. Analiza statică JavaScript nu necesită un motor de analiză nativă.
 
-> **[Vizitează site-ul REA](https://rea.tools/)** pentru instrucțiuni de configurare, ghiduri ilustrate și studii de caz reale.
+> **[Vizitează site-ul REA](https://rea.one1.kdns.fr/)** pentru instrucțiuni de configurare, ghiduri ilustrate și studii de caz reale.
 
 ## Pornire rapidă
 
@@ -252,7 +252,7 @@ pentru funcționalitățile adăugate după cea mai recentă versiune npm.
 
 ## Studii de caz
 
-<a href="https://rea.tools/showcase/">
+<a href="https://rea.one1.kdns.fr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Ilustrații pentru studiile de caz despre panoramarea sunetului în DX-Ball, legătura cu clipboardul în Notion și inelele de proiectile din TH04" src="../assets/rea-showcases.svg" />
@@ -266,7 +266,7 @@ panoramare stereo, inspectează instrucțiunile și transformă pseudocodul inco
 în C. Reconstrucția trece 3.205 cazuri de test comparate cu originalul x86 și
 reproduce toți cei 63 de octeți ai funcției compilate.
 
-[Citește studiul de caz](https://rea.tools/showcase/dx-ball/) ·
+[Citește studiul de caz](https://rea.one1.kdns.fr/showcase/dx-ball/) ·
 [Repository-ul reconstrucției](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: urmărește legătura Electron cu clipboardul
@@ -274,7 +274,7 @@ reproduce toți cei 63 de octeți ai funcției compilate.
 Găsește API-ul pentru clipboard din procesul de randare, urmărește-l prin preload
 și IPC până în procesul principal și inspectează formatul datelor cu formatare din clipboard.
 
-[Citește studiul de caz](https://rea.tools/showcase/notion/)
+[Citește studiul de caz](https://rea.one1.kdns.fr/showcase/notion/)
 
 ### TH04: recuperează calculul unui inel de proiectile DOS
 
@@ -282,14 +282,14 @@ Inspectează instrucțiunile pe 16 biți ale jocului original pentru PC-98,
 recuperează calculele unghiurilor fixe și ale celor orientate spre țintă și
 compară codul C++ reconstruit cu rezultatul compilatorului folosit la acea vreme.
 
-[Citește studiul de caz](https://rea.tools/showcase/th04/) ·
+[Citește studiul de caz](https://rea.one1.kdns.fr/showcase/th04/) ·
 [Repository-ul reconstrucției](https://github.com/N0zoM1z0/th04)
 
 ### Construiește medii RL cu REA
 
 Înregistrează o sesiune de aplicație web, transformă API-ul în instrumente și exportă un mediu pe care un agent AI îl poate folosi. Rulează cu AgentEnv, apoi adaugă sarcini și verificări de recompensă pentru antrenare RL sau evaluare.
 
-[Ghid pentru construirea unui mediu](https://rea.tools/guides/rl-environments/) ·
+[Ghid pentru construirea unui mediu](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Vezi demonstrația pe X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Dacă ai folosit REA pentru ceva interesant, ne-ar plăcea să vedem rezultatul.
@@ -329,7 +329,7 @@ agent-env run ./my-env
 
 REA exportă un mediu executabil cu un test de bază care verifică pornirea și răspunsurile. Conectează-l la frameworkul RL pentru a defini obiectivele, a adăuga verificări de recompensă și a rula antrenarea.
 
-[Ghid pentru construirea unui mediu](https://rea.tools/guides/rl-environments/) ·
+[Ghid pentru construirea unui mediu](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Referință pentru medii](../agent-environments.md) ·
 [Vezi demonstrația pe X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -418,7 +418,7 @@ tipul țintei analizate, pașii de reproducere și mesajele de eroare.
 
 ## Documentație
 
-Începe cu [ghidurile practice](https://rea.tools/guides/) de pe site.
+Începe cu [ghidurile practice](https://rea.one1.kdns.fr/guides/) de pe site.
 Pentru opțiunile exacte, cerințele preliminare și contractele rezultatelor:
 
 - [Instalare și configurare](../installation.md): înregistrarea agenților, configurarea motoarelor de analiză, actualizări și dezinstalare.

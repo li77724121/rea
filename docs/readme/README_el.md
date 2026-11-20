@@ -17,7 +17,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Ιστότοπος](https://rea.tools/) · [Οδηγοί](https://rea.tools/guides/) · [Μελέτες περίπτωσης](https://rea.tools/showcase/)**
+**[Ιστότοπος](https://rea.one1.kdns.fr/) · [Οδηγοί](https://rea.one1.kdns.fr/guides/) · [Μελέτες περίπτωσης](https://rea.one1.kdns.fr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Έλα στην κοινότητα REA στο Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 
 > [!IMPORTANT]
 > Κατέβασε το REA από το [morluto/rea](https://github.com/morluto/rea),
-> το [rea.tools](https://rea.tools/) ή το [πακέτο rea-agents στο npm](https://www.npmjs.com/package/rea-agents).
+> το [rea.one1.kdns.fr](https://rea.one1.kdns.fr/) ή το [πακέτο rea-agents στο npm](https://www.npmjs.com/package/rea-agents).
 > Ακολούθησε τους συνδέσμους εγκατάστασης και εκδόσεων από αυτές τις επίσημες πηγές.
 > Ένα παρόμοιο όνομα αποθετηρίου ή ένα αντιγραμμένο README δεν αποδεικνύει ότι
 > ένα αρχείο προς λήψη προέρχεται από επίσημη πηγή.
@@ -66,7 +66,7 @@
 
 Η διαδικασία εγκατάστασης καταχωρίζει το REA στον agent σου και εγκαθιστά τις αντίστοιχες οδηγίες εργασίας. Για ανάλυση κώδικα μηχανής μπορείς να χρησιμοποιήσεις μια υπάρχουσα εγκατάσταση του Hopper, του Ghidra, του IDA ή του Kuna. Η διαδικασία εγκατάστασης μπορεί επίσης να εγκαταστήσει το Hopper, εφόσον το εγκρίνεις. Η στατική ανάλυση JavaScript δεν χρειάζεται μηχανή ανάλυσης κώδικα μηχανής.
 
-> **[Επισκέψου τον ιστότοπο του REA](https://rea.tools/)** για οδηγίες εγκατάστασης, εικονογραφημένους οδηγούς και πραγματικές μελέτες περίπτωσης.
+> **[Επισκέψου τον ιστότοπο του REA](https://rea.one1.kdns.fr/)** για οδηγίες εγκατάστασης, εικονογραφημένους οδηγούς και πραγματικές μελέτες περίπτωσης.
 
 ## Γρήγορη εκκίνηση
 
@@ -205,7 +205,7 @@ npx rea-agents@latest setup
 
 ## Μελέτες περίπτωσης
 
-<a href="https://rea.tools/showcase/">
+<a href="https://rea.one1.kdns.fr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Εικονογραφήσεις των μελετών περίπτωσης για τη στερεοφωνική τοποθέτηση ήχου στο DX-Ball, τη γέφυρα προχείρου του Notion και τον δακτύλιο βλημάτων του TH04" src="../assets/rea-showcases.svg" />
@@ -216,25 +216,25 @@ npx rea-agents@latest setup
 
 Ακολούθησε μια κλήση ήχου μέχρι τη βοηθητική συνάρτηση που μετατρέπει τη θέση σε στερεοφωνική τοποθέτηση, εξέτασε τις εντολές και μετέτρεψε τον ελλιπή ψευδοκώδικα σε C. Η ανακατασκευή περνά 3.205 δοκιμές με τον αρχικό κώδικα x86 και αναπαράγει και τα 63 bytes της μεταγλωττισμένης συνάρτησης.
 
-[Διάβασε τη μελέτη περίπτωσης](https://rea.tools/showcase/dx-ball/) · [Αποθετήριο ανακατασκευής](https://github.com/N0zoM1z0/dx-ball)
+[Διάβασε τη μελέτη περίπτωσης](https://rea.one1.kdns.fr/showcase/dx-ball/) · [Αποθετήριο ανακατασκευής](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: ιχνηλάτηση της γέφυρας προχείρου στο Electron
 
 Βρες το API προχείρου του renderer, ακολούθησέ το μέσω του preload και του IPC μέχρι την κύρια διεργασία και εξέτασε τη μορφή εμπλουτισμένου περιεχομένου του προχείρου.
 
-[Διάβασε τη μελέτη περίπτωσης](https://rea.tools/showcase/notion/)
+[Διάβασε τη μελέτη περίπτωσης](https://rea.one1.kdns.fr/showcase/notion/)
 
 ### TH04: ανάκτηση υπολογισμού δακτυλίου βλημάτων σε DOS
 
 Εξέτασε τις εντολές 16 bit του αρχικού παιχνιδιού για PC-98, ανέκτησε τους υπολογισμούς σταθερών γωνιών και γωνιών στόχευσης και σύγκρινε τον ανακατασκευασμένο κώδικα C++ με την έξοδο του μεταγλωττιστή της εποχής.
 
-[Διάβασε τη μελέτη περίπτωσης](https://rea.tools/showcase/th04/) · [Αποθετήριο ανακατασκευής](https://github.com/N0zoM1z0/th04)
+[Διάβασε τη μελέτη περίπτωσης](https://rea.one1.kdns.fr/showcase/th04/) · [Αποθετήριο ανακατασκευής](https://github.com/N0zoM1z0/th04)
 
 ### Δημιουργία περιβαλλόντων RL με το REA
 
 Καταγράψτε μια συνεδρία εφαρμογής ιστού, μετατρέψτε το API της σε εργαλεία και εξαγάγετε ένα περιβάλλον για πράκτορα AI. Εκτελέστε το με το AgentEnv και προσθέστε εργασίες και ελέγχους ανταμοιβής για εκπαίδευση RL ή αξιολόγηση.
 
-[Οδηγός δημιουργίας περιβάλλοντος](https://rea.tools/guides/rl-environments/) ·
+[Οδηγός δημιουργίας περιβάλλοντος](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Δείτε το demo στο X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Αν χρησιμοποίησες το REA για κάτι ενδιαφέρον, θα θέλαμε να το δούμε. Μοιράσου τη μελέτη σου σε ένα [issue](https://github.com/morluto/rea/issues) ή [pull request](https://github.com/morluto/rea/pulls), αναφέροντας τον στόχο, το ερώτημά σου, πώς βοήθησε το REA και τι ανακάλυψες.
@@ -271,7 +271,7 @@ agent-env run ./my-env
 
 Το REA εξάγει ένα εκτελέσιμο περιβάλλον με μια βασική δοκιμή εκκίνησης και απόκρισης. Συνδέστε το στο πλαίσιο RL για να ορίσετε στόχους, να προσθέσετε ελέγχους ανταμοιβής και να εκτελέσετε εκπαίδευση.
 
-[Οδηγός δημιουργίας περιβάλλοντος](https://rea.tools/guides/rl-environments/) ·
+[Οδηγός δημιουργίας περιβάλλοντος](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Αναφορά περιβαλλόντων](../agent-environments.md) ·
 [Δείτε το demo στο X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -342,7 +342,7 @@ npx rea-agents@latest setup
 
 ## Τεκμηρίωση
 
-Ξεκίνα από τους [οδηγούς με ολοκληρωμένα παραδείγματα](https://rea.tools/guides/) στον ιστότοπο. Για τις ακριβείς επιλογές, τις προϋποθέσεις και τις προδιαγραφές των αποτελεσμάτων:
+Ξεκίνα από τους [οδηγούς με ολοκληρωμένα παραδείγματα](https://rea.one1.kdns.fr/guides/) στον ιστότοπο. Για τις ακριβείς επιλογές, τις προϋποθέσεις και τις προδιαγραφές των αποτελεσμάτων:
 
 - [Εγκατάσταση και ρύθμιση](../installation.md): καταχώριση agents, ρύθμιση παρόχων ανάλυσης, ενημερώσεις και απεγκατάσταση.
 - [Έλεγχος ετοιμότητας και αντιμετώπιση προβλημάτων](../installation.md#check-readiness-for-your-task): διάγνωση ενός agent ή μιας μηχανής ανάλυσης.

@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[网站](https://rea.tools/zh-CN/) · [指南](https://rea.tools/zh-CN/guides/) · [案例](https://rea.tools/zh-CN/showcase/)**
+**[网站](https://rea.one1.kdns.fr/zh-CN/) · [指南](https://rea.one1.kdns.fr/zh-CN/guides/) · [案例](https://rea.one1.kdns.fr/zh-CN/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="加入 REA 的 Discord 社区" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA 官方来源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA 官方来源： [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 请通过这些官方来源提供的安装和发布链接获取 REA。相似的仓库名称或复制的 README 不能证明下载内容来自官方。
 
 <div align="center">
@@ -64,7 +64,7 @@ REA 将智能体连接到分析工具，用于检查原生二进制文件、Java
 
 设置流程会向智能体注册 REA，并安装匹配的工作流指引。原生分析可以使用已有的 Hopper、Ghidra、IDA 或 Kuna；设置流程也可以在你批准后安装 Hopper。静态 JavaScript 分析不需要原生分析引擎。
 
-> **[访问 REA 网站](https://rea.tools/zh-CN/)**，查看设置说明、图解指南和真实案例。
+> **[访问 REA 网站](https://rea.one1.kdns.fr/zh-CN/)**，查看设置说明、图解指南和真实案例。
 
 ## 快速开始
 
@@ -199,7 +199,7 @@ REA 需要 Node.js 22.x（>=22.23.4）、24.x（>=24.22.1）或 26+ (>=26.12.1)�
 
 ## 案例
 
-<a href="https://rea.tools/zh-CN/showcase/">
+<a href="https://rea.one1.kdns.fr/zh-CN/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="DX-Ball 声音平移、Notion 剪贴板桥接与 TH04 弹幕环案例的插图" src="../assets/rea-showcases.svg" />
@@ -210,27 +210,27 @@ REA 需要 Node.js 22.x（>=22.23.4）、24.x（>=24.22.1）或 26+ (>=26.12.1)�
 
 沿声音调用追踪到根据位置计算声像的辅助函数，检查指令，将不完整的伪代码转为 C。重建结果通过了 3,205 个原始 x86 测试用例，并复现了编译后函数的全部 63 个字节。
 
-[阅读案例](https://rea.tools/zh-CN/showcase/dx-ball/) ·
+[阅读案例](https://rea.one1.kdns.fr/zh-CN/showcase/dx-ball/) ·
 [重建项目仓库](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion：追踪 Electron 剪贴板桥
 
 找到渲染进程的剪贴板 API，沿 preload 和 IPC 追踪到主进程，并检查富格式剪贴板数据。
 
-[阅读案例](https://rea.tools/zh-CN/showcase/notion/)
+[阅读案例](https://rea.one1.kdns.fr/zh-CN/showcase/notion/)
 
 ### TH04：恢复 DOS 环形子弹的计算
 
 检查原始 PC-98 游戏的 16 位指令，恢复固定角度和瞄准角度的计算，并将重建的 C++ 与当年的编译器输出进行对比。
 
-[阅读案例](https://rea.tools/zh-CN/showcase/th04/) ·
+[阅读案例](https://rea.one1.kdns.fr/zh-CN/showcase/th04/) ·
 [重建项目仓库](https://github.com/N0zoM1z0/th04)
 
 ### 用 REA 构建 RL 环境
 
 录制 Web 应用会话，将 API 转为工具，并导出 AI 智能体可使用的环境。用 AgentEnv 运行，再添加任务和奖励检查，用于 RL 训练或评测。
 
-[构建环境指南](https://rea.tools/guides/rl-environments/) ·
+[构建环境指南](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [在 X 上观看演示](https://x.com/reatools/status/2112574822584918075?s=20)
 
 如果你用 REA 分析了有趣的目标，我们很想了解。欢迎通过 [issue](https://github.com/morluto/rea/issues) 或 [pull request](https://github.com/morluto/rea/pulls) 分享案例，说明目标、你的问题、REA 如何提供帮助，以及你的发现。
@@ -267,7 +267,7 @@ agent-env run ./my-env
 
 REA 导出可直接运行的环境，并附带基本测试，检查环境能否启动和响应。将它接入 RL 框架，即可设置任务目标、添加奖励检查并运行训练。
 
-[构建环境指南](https://rea.tools/guides/rl-environments/) ·
+[构建环境指南](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [环境参考文档](../agent-environments.md) ·
 [在 X 上观看演示](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -338,7 +338,7 @@ npx rea-agents@latest setup
 
 ## 文档
 
-可以先阅读网站上的[实操指南](https://rea.tools/zh-CN/guides/)。具体选项、前提条件和结果契约见：
+可以先阅读网站上的[实操指南](https://rea.one1.kdns.fr/zh-CN/guides/)。具体选项、前提条件和结果契约见：
 
 - [安装与设置](../installation.md)：智能体注册、提供方配置、更新和卸载。
 - [就绪检查与故障排查](../installation.md#check-readiness-for-your-task)：诊断特定智能体或分析引擎。

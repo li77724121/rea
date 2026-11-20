@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55" /></a>
 
-**[وب‌سایت](https://rea.tools/fa/) · [راهنماها](https://rea.tools/fa/guides/) · [نمونه‌های عملی](https://rea.tools/fa/showcase/)**
+**[وب‌سایت](https://rea.one1.kdns.fr/fa/) · [راهنماها](https://rea.one1.kdns.fr/fa/guides/) · [نمونه‌های عملی](https://rea.one1.kdns.fr/fa/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="به انجمن REA در دیسکورد بپیوندید" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > از پیوندهای نصب و انتشار در این منابع رسمی استفاده کنید. نام مشابه مخزن یا README کپی‌شده ثابت نمی‌کند که فایل دانلودی رسمی است.
 
 <div align="center" dir="rtl">
@@ -56,7 +56,7 @@ REA ایجنت شما را به ابزارهایی برای بررسی باین�
 
 راه‌اندازی، REA را در ایجنت ثبت و دستورالعمل‌های متناظر را نصب می‌کند. تحلیل بومی می‌تواند از Hopper، Ghidra، IDA یا Kuna موجود استفاده کند؛ نصب Hopper پس از تأیید شما ممکن است. تحلیل ایستای JavaScript به موتور تحلیل بومی نیاز ندارد.
 
-> برای دستورالعمل‌های راه‌اندازی، راهنماهای تصویری و مطالعات موردی واقعی، **[به وب‌سایت REA مراجعه کنید](https://rea.tools/fa/)**.
+> برای دستورالعمل‌های راه‌اندازی، راهنماهای تصویری و مطالعات موردی واقعی، **[به وب‌سایت REA مراجعه کنید](https://rea.one1.kdns.fr/fa/)**.
 
 ## شروع سریع
 
@@ -195,7 +195,7 @@ REA به Node.js 22.x (>=22.23.4)، 24.x (>=24.22.1) یا 26+ (>=26.12.1)، به
 
 ## نمونه‌های عملی
 
-<a href="https://rea.tools/fa/showcase/">
+<a href="https://rea.one1.kdns.fr/fa/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="تصویرهایی از نمونه‌های پنینگ صدای DX-Ball، پل کلیپ‌بورد Notion و حلقهٔ گلوله‌های TH04" src="../assets/rea-showcases.svg" />
@@ -206,25 +206,25 @@ REA به Node.js 22.x (>=22.23.4)، 24.x (>=24.22.1) یا 26+ (>=26.12.1)، به
 
 یک فراخوانی صوتی را تا تابع کمکی تبدیل موقعیت به pan دنبال کنید، دستورالعمل‌ها را بررسی کنید و شبه‌کد ناقص را به C تبدیل کنید. بازسازی حاصل، هر ۳٬۲۰۵ مورد آزمایش x86 اصلی را با موفقیت پشت سر می‌گذارد و هر ۶۳ بایت تابع کامپایل‌شده را دقیقاً بازتولید می‌کند.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/dx-ball/) · [مخزن بازسازی](https://github.com/N0zoM1z0/dx-ball)
+[مطالعهٔ موردی](https://rea.one1.kdns.fr/fa/showcase/dx-ball/) · [مخزن بازسازی](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: ردیابی پل کلیپ‌بورد Electron
 
 API کلیپ‌بورد در renderer را پیدا کنید، مسیر آن را از preload و IPC تا فرایند اصلی دنبال کنید و قالب غنی کلیپ‌بورد را بررسی کنید.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/notion/)
+[مطالعهٔ موردی](https://rea.one1.kdns.fr/fa/showcase/notion/)
 
 ### TH04: بازیابی محاسبهٔ حلقهٔ گلوله در DOS
 
 دستورالعمل‌های ۱۶بیتی بازی اصلی PC-98 را بررسی کنید، محاسبات زاویهٔ ثابت و هدف‌گیری‌شده را بازیابی کنید و کد C++ بازسازی‌شده را با خروجی کامپایلر تاریخی مقایسه کنید.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/th04/) · [مخزن بازسازی](https://github.com/N0zoM1z0/th04)
+[مطالعهٔ موردی](https://rea.one1.kdns.fr/fa/showcase/th04/) · [مخزن بازسازی](https://github.com/N0zoM1z0/th04)
 
 ### ساخت محیط‌های RL با REA
 
 یک نشست برنامهٔ وب را ضبط کنید، API آن را به ابزار تبدیل کنید و محیطی برای عامل هوش مصنوعی صادر کنید. آن را با AgentEnv اجرا کنید و کارها و بررسی پاداش را برای آموزش RL یا ارزیابی اضافه کنید.
 
-[راهنمای ساخت محیط](https://rea.tools/guides/rl-environments/) ·
+[راهنمای ساخت محیط](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [نمایش را در X ببینید](https://x.com/reatools/status/2112574822584918075?s=20)
 
 اگر از REA برای بررسی موضوع جالبی استفاده کرده‌اید، خوشحال می‌شویم آن را به اشتراک بگذارید. یک [issue](https://github.com/morluto/rea/issues) یا [pull request](https://github.com/morluto/rea/pulls) ثبت کنید و هدف، پرسش خود، نقش REA و یافته‌هایتان را توضیح دهید.
@@ -261,7 +261,7 @@ agent-env run ./my-env
 
 REA محیطی آمادهٔ اجرا همراه با یک آزمون ساده برای بررسی شروع به کار و پاسخ‌گویی آن صادر می‌کند. آن را به چارچوب RL متصل کنید تا اهداف کارها و بررسی پاداش را تعریف و آموزش را اجرا کنید.
 
-[راهنمای ساخت محیط](https://rea.tools/guides/rl-environments/) ·
+[راهنمای ساخت محیط](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [مرجع محیط‌ها](../agent-environments.md) ·
 [نمایش را در X ببینید](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -325,7 +325,7 @@ npx rea-agents@latest setup
 
 ## مستندات
 
-از [راهنماهای عملی وب‌سایت](https://rea.tools/fa/guides/) شروع کنید. برای گزینه‌های دقیق، پیش‌نیازها و قراردادهای خروجی:
+از [راهنماهای عملی وب‌سایت](https://rea.one1.kdns.fr/fa/guides/) شروع کنید. برای گزینه‌های دقیق، پیش‌نیازها و قراردادهای خروجی:
 
 - [نصب و راه‌اندازی](../installation.md): ثبت ایجنت، پیکربندی ارائه‌دهنده، به‌روزرسانی و حذف نصب.
 - [آمادگی و رفع اشکال](../installation.md#check-readiness-for-your-task): عیب‌یابی یک ایجنت یا موتور تحلیل.

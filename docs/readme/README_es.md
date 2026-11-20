@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Sitio web](https://rea.tools/es/) · [Guías](https://rea.tools/es/guides/) · [Casos prácticos](https://rea.tools/es/showcase/)**
+**[Sitio web](https://rea.one1.kdns.fr/es/) · [Guías](https://rea.one1.kdns.fr/es/guides/) · [Casos prácticos](https://rea.one1.kdns.fr/es/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Únete a la comunidad de REA en Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> Fuentes oficiales de REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Fuentes oficiales de REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Usa los enlaces de instalación y de versiones publicados en estas fuentes oficiales. Un nombre de repositorio parecido o un README copiado no demuestra que una descarga sea oficial.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA conecta tu agente con herramientas para inspeccionar binarios nativos, aplic
 
 La configuración registra REA con tu agente e instala las instrucciones de trabajo correspondientes. El análisis nativo puede usar Hopper, Ghidra, IDA o Kuna ya instalados; la configuración puede instalar Hopper con tu aprobación. El análisis estático de JavaScript no requiere un motor de análisis nativo.
 
-> **[Visita el sitio web de REA](https://rea.tools/es/)** para encontrar instrucciones de configuración, guías ilustradas y casos reales.
+> **[Visita el sitio web de REA](https://rea.one1.kdns.fr/es/)** para encontrar instrucciones de configuración, guías ilustradas y casos reales.
 
 ## Inicio rápido
 
@@ -203,7 +203,7 @@ Los formatos nativos y los sistemas anfitriones compatibles varían según el pr
 
 ## Casos prácticos
 
-<a href="https://rea.tools/es/showcase/">
+<a href="https://rea.one1.kdns.fr/es/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Ilustraciones de los casos de panoramización de sonido de DX-Ball, el puente del portapapeles de Notion y el anillo de proyectiles de TH04" src="../assets/rea-showcases.svg" />
@@ -214,25 +214,25 @@ Los formatos nativos y los sistemas anfitriones compatibles varían según el pr
 
 Sigue una llamada de sonido hasta la función auxiliar que convierte la posición en panoramización, inspecciona las instrucciones y transforma el pseudocódigo incompleto en C. La reconstrucción supera 3.205 casos con el x86 original y reproduce los 63 bytes de la función compilada.
 
-[Lee el caso práctico](https://rea.tools/es/showcase/dx-ball/) · [Repositorio de reconstrucción](https://github.com/N0zoM1z0/dx-ball)
+[Lee el caso práctico](https://rea.one1.kdns.fr/es/showcase/dx-ball/) · [Repositorio de reconstrucción](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: seguir el puente del portapapeles de Electron
 
 Encuentra la API del portapapeles del proceso de renderizado, síguela a través de preload e IPC hasta el proceso principal e inspecciona el formato enriquecido del portapapeles.
 
-[Lee el caso práctico](https://rea.tools/es/showcase/notion/)
+[Lee el caso práctico](https://rea.one1.kdns.fr/es/showcase/notion/)
 
 ### TH04: recuperar el cálculo de un anillo de proyectiles en DOS
 
 Inspecciona las instrucciones de 16 bits del juego original para PC-98, recupera los cálculos de ángulos fijos y dirigidos, y compara el C++ reconstruido con la salida del compilador de la época.
 
-[Lee el caso práctico](https://rea.tools/es/showcase/th04/) · [Repositorio de reconstrucción](https://github.com/N0zoM1z0/th04)
+[Lee el caso práctico](https://rea.one1.kdns.fr/es/showcase/th04/) · [Repositorio de reconstrucción](https://github.com/N0zoM1z0/th04)
 
 ### Crear entornos de RL con REA
 
 Graba una sesión de una aplicación web, convierte su API en herramientas y exporta un entorno que un agente de IA pueda usar. Ejecútalo con AgentEnv y añade tareas y comprobaciones de recompensa para entrenamiento RL o evaluación.
 
-[Guía para crear un entorno](https://rea.tools/guides/rl-environments/) ·
+[Guía para crear un entorno](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Ver la demo en X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Si has usado REA para investigar algo interesante, nos gustaría verlo. Comparte tu caso en una [issue](https://github.com/morluto/rea/issues) o una [pull request](https://github.com/morluto/rea/pulls), incluyendo el objetivo, tu pregunta, cómo te ayudó REA y qué encontraste.
@@ -269,7 +269,7 @@ agent-env run ./my-env
 
 REA exporta un entorno ejecutable con una prueba básica que comprueba que arranca y responde. Úsalo con tu framework de RL para definir objetivos, añadir comprobaciones de recompensa y ejecutar el entrenamiento.
 
-[Guía para crear un entorno](https://rea.tools/guides/rl-environments/) ·
+[Guía para crear un entorno](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Referencia de entornos](../agent-environments.md) ·
 [Ver la demo en X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -340,7 +340,7 @@ Si usas un agente, completa la [actualización de la configuración](#actualiza-
 
 ## Documentación
 
-Empieza con las [guías prácticas](https://rea.tools/es/guides/) del sitio web. Para opciones exactas, requisitos y contratos de resultados:
+Empieza con las [guías prácticas](https://rea.one1.kdns.fr/es/guides/) del sitio web. Para opciones exactas, requisitos y contratos de resultados:
 
 - [Instalación y configuración](../installation.md): registro de agentes, configuración de proveedores, actualizaciones y desinstalación.
 - [Preparación y resolución de problemas](../installation.md#check-readiness-for-your-task): diagnóstico de un agente o motor de análisis concreto.

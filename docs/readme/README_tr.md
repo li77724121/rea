@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Web sitesi](https://rea.tools/tr/) · [Rehberler](https://rea.tools/tr/guides/) · [Örnek çalışmalar](https://rea.tools/tr/showcase/)**
+**[Web sitesi](https://rea.one1.kdns.fr/tr/) · [Rehberler](https://rea.one1.kdns.fr/tr/guides/) · [Örnek çalışmalar](https://rea.one1.kdns.fr/tr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Discord'da REA topluluğuna katılın" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Kurulum ve sürüm bağlantılarını bu resmî kaynaklardan takip edin. Benzer bir depo adı veya kopyalanmış bir README, indirilen dosyanın resmî olduğunu kanıtlamaz.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA, ajanınızı yerel makine kodu içeren ikili dosyaları, JavaScript ve Elec
 
 Kurulum, REA'yı ajanınıza kaydeder ve uyumlu iş akışı talimatlarını yükler. Yerel makine kodu analizi mevcut bir Hopper, Ghidra, IDA veya Kuna kurulumunu kullanabilir; kurulum işlemi, onayınızla isteğe bağlı olarak Hopper da yükleyebilir. Statik JavaScript analizi bu yerel analiz motorlarından hiçbirine ihtiyaç duymaz.
 
-> Kurulum talimatları, görselli rehberler ve gerçek örnek çalışmalar için **[REA web sitesini ziyaret edin](https://rea.tools/tr/)**.
+> Kurulum talimatları, görselli rehberler ve gerçek örnek çalışmalar için **[REA web sitesini ziyaret edin](https://rea.one1.kdns.fr/tr/)**.
 
 ## Hızlı başlangıç
 
@@ -197,7 +197,7 @@ Yerel makine kodu içeren ikili dosya biçimleri ve ana bilgisayar desteği sağ
 
 ## Örnek çalışmalar
 
-<a href="https://rea.tools/tr/showcase/">
+<a href="https://rea.one1.kdns.fr/tr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="DX-Ball ses kaydırma, Notion pano köprüsü ve TH04 mermi halkası örneklerinin çizimleri" src="../assets/rea-showcases.svg" />
@@ -208,25 +208,25 @@ Yerel makine kodu içeren ikili dosya biçimleri ve ana bilgisayar desteği sağ
 
 Bir ses çağrısından konumu stereo konumlandırmaya dönüştüren yardımcı fonksiyona ilerleyin, talimatları inceleyin ve eksik sözde kodu C'ye dönüştürün. Yeniden oluşturulan kod, özgün x86 üzerinde 3.205 test durumunu geçer ve derlenmiş fonksiyonun 63 baytının tamamını yeniden üretir.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/dx-ball/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/dx-ball)
+[Örnek çalışmayı okuyun](https://rea.one1.kdns.fr/tr/showcase/dx-ball/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: Electron pano köprüsünü izleme
 
 İşleyici sürecin pano API'sini bulun, preload ve IPC üzerinden ana sürece kadar izleyin ve zengin pano biçimini inceleyin.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/notion/)
+[Örnek çalışmayı okuyun](https://rea.one1.kdns.fr/tr/showcase/notion/)
 
 ### TH04: DOS mermi halkası hesabını geri çıkarma
 
 Özgün PC-98 oyununun 16 bit talimatlarını inceleyin, sabit ve hedefe yönelik açı hesaplarını geri çıkarın ve yeniden oluşturulan C++ kodunu dönemin derleyici çıktısıyla karşılaştırın.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/th04/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/th04)
+[Örnek çalışmayı okuyun](https://rea.one1.kdns.fr/tr/showcase/th04/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/th04)
 
 ### REA ile RL ortamları oluşturun
 
 Bir web uygulaması oturumunu kaydedin, API’sini araçlara dönüştürün ve bir yapay zekâ ajanının kullanabileceği ortamı dışa aktarın. AgentEnv ile çalıştırın, ardından RL eğitimi veya değerlendirmesi için görevler ve ödül kontrolleri ekleyin.
 
-[Ortam oluşturma rehberi](https://rea.tools/guides/rl-environments/) ·
+[Ortam oluşturma rehberi](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Demoyu X’te izleyin](https://x.com/reatools/status/2112574822584918075?s=20)
 
 REA'yı ilginç bir konuda kullandıysanız görmek isteriz. Hedefi, sorunuzu, REA'nın nasıl yardımcı olduğunu ve bulgularınızı bir [issue](https://github.com/morluto/rea/issues) veya [pull request](https://github.com/morluto/rea/pulls) ile paylaşın.
@@ -263,7 +263,7 @@ agent-env run ./my-env
 
 REA, çalıştırılabilir bir ortamı ve başlayıp yanıt verdiğini kontrol eden temel bir testi dışa aktarır. Görev hedeflerini ve ödül kontrollerini tanımlamak, ardından eğitim çalıştırmak için RL çerçevenizle kullanın.
 
-[Ortam oluşturma rehberi](https://rea.tools/guides/rl-environments/) ·
+[Ortam oluşturma rehberi](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Ortam referansı](../agent-environments.md) ·
 [Demoyu X’te izleyin](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -334,7 +334,7 @@ Ajan kullanıyorsanız [kurulum yenilemesini](#reayı-güncelleyin) tamamlayın 
 
 ## Belgeler
 
-Web sitesindeki [uygulamalı rehberlerden](https://rea.tools/tr/guides/) başlayın. Kesin seçenekler, ön koşullar ve sonuç sözleşmeleri için:
+Web sitesindeki [uygulamalı rehberlerden](https://rea.one1.kdns.fr/tr/guides/) başlayın. Kesin seçenekler, ön koşullar ve sonuç sözleşmeleri için:
 
 - [Yükleme ve kurulum](../installation.md): ajan kaydı, sağlayıcı yapılandırması, güncellemeler ve kaldırma.
 - [Hazırlık ve sorun giderme](../installation.md#check-readiness-for-your-task): belirli bir ajanı veya analiz motorunu tanılama.

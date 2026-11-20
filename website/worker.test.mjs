@@ -15,7 +15,7 @@ function assets({ markdownStatus = 200 } = {}) {
         const headers = {
           "Content-Type": markdown ? "text/plain" : "text/html",
           ETag: markdown ? '"markdown"' : '"html"',
-          Link: '<https://rea.tools/.well-known/ard.json>; rel="ard"',
+          Link: '<https://rea.one1.kdns.fr/.well-known/ard.json>; rel="ard"',
         };
         const status =
           request.headers.get("If-None-Match") === headers.ETag
@@ -51,7 +51,7 @@ await test("HTML is the default and explicit Accept preferences select Markdown"
     ["text/markdown;q=0,*/*;q=1", false],
   ]) {
     const response = await worker.fetch(
-      new Request("https://rea.tools/guide/", {
+      new Request("https://rea.one1.kdns.fr/guide/", {
         headers: accept === null ? {} : { Accept: accept },
       }),
       assets(),
@@ -78,7 +78,7 @@ await test("HTML is the default and explicit Accept preferences select Markdown"
 await test("HEAD and validators use the selected representation", async () => {
   for (const method of ["GET", "HEAD"]) {
     const response = await worker.fetch(
-      new Request("https://rea.tools/guide/", {
+      new Request("https://rea.one1.kdns.fr/guide/", {
         method,
         headers: { Accept: "text/markdown", "If-None-Match": '"html"' },
       }),
@@ -93,7 +93,7 @@ await test("HEAD and validators use the selected representation", async () => {
     ["text/markdown", '"markdown"'],
   ]) {
     const response = await worker.fetch(
-      new Request("https://rea.tools/guide/", {
+      new Request("https://rea.one1.kdns.fr/guide/", {
         headers: { Accept: accept, "If-None-Match": tag },
       }),
       assets(),
@@ -106,7 +106,7 @@ await test("HEAD and validators use the selected representation", async () => {
 
 await test("missing Markdown keeps HTML, and asset redirects and missing routes survive", async () => {
   const html = await worker.fetch(
-    new Request("https://rea.tools/guide/", {
+    new Request("https://rea.one1.kdns.fr/guide/", {
       headers: { Accept: "text/markdown" },
     }),
     assets({ markdownStatus: 404 }),
@@ -117,7 +117,7 @@ await test("missing Markdown keeps HTML, and asset redirects and missing routes 
     ["/missing/", 404],
   ]) {
     const response = await worker.fetch(
-      new Request(`https://rea.tools${path}`, {
+      new Request(`https://rea.one1.kdns.fr${path}`, {
         headers: { Accept: "text/markdown" },
       }),
       assets(),

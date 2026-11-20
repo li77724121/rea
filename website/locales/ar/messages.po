@@ -11150,7 +11150,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://rea.one1.kdns.fr/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13302,7 +13302,7 @@ msgstr "مساعد البرمجة"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://rea.one1.kdns.fr/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14338,7 +14338,7 @@ msgstr "نسخة لعبة إعادة الإعمار موجه"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://rea.one1.kdns.fr/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>

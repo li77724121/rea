@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Situs Web](https://rea.tools/id/) · [Panduan](https://rea.tools/id/guides/) · [Contoh Penggunaan](https://rea.tools/id/showcase/)**
+**[Situs Web](https://rea.one1.kdns.fr/id/) · [Panduan](https://rea.one1.kdns.fr/id/guides/) · [Contoh Penggunaan](https://rea.one1.kdns.fr/id/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Bergabunglah dengan komunitas REA di Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> Sumber resmi REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Sumber resmi REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Gunakan tautan instalasi dan rilis dari sumber resmi ini. Nama repositori yang mirip atau README yang disalin tidak membuktikan bahwa unduhan tersebut resmi.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA menghubungkan agen Anda dengan berbagai alat untuk memeriksa biner native, a
 
 Proses penyiapan mendaftarkan REA ke agen Anda dan memasang instruksi alur kerja yang sesuai. Analisis native dapat menggunakan instalasi Hopper, Ghidra, IDA, atau Kuna yang sudah ada. Proses penyiapan juga dapat memasang Hopper secara opsional setelah mendapatkan persetujuan. Analisis JavaScript statis tidak memerlukan mesin analisis native.
 
-> **[Kunjungi situs web REA](https://rea.tools/id/)** untuk mendapatkan petunjuk penyiapan, panduan bergambar, dan studi kasus nyata.
+> **[Kunjungi situs web REA](https://rea.one1.kdns.fr/id/)** untuk mendapatkan petunjuk penyiapan, panduan bergambar, dan studi kasus nyata.
 
 ## Mulai Cepat
 
@@ -211,7 +211,7 @@ Periksa [ketersediaan rilis](../installation.md#released-package-and-main) untuk
 
 ## Contoh Penggunaan
 
-<a href="https://rea.tools/id/showcase/">
+<a href="https://rea.one1.kdns.fr/id/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Ilustrasi contoh penggunaan DX-Ball sound-pan, Notion clipboard-bridge, dan TH04 bullet-ring" src="../assets/rea-showcases.svg" />
@@ -222,25 +222,25 @@ Periksa [ketersediaan rilis](../installation.md#released-package-and-main) untuk
 
 Ikuti pemanggilan suara hingga ke fungsi pembantu yang mengubah posisi menjadi nilai pan, periksa instruksinya, lalu ubah pseudocode yang belum lengkap menjadi C. Hasil rekonstruksi tersebut lolos pada 3.205 kasus x86 asli dan mereproduksi seluruh 63 byte fungsi hasil kompilasi.
 
-[Baca studi kasus](https://rea.tools/id/showcase/dx-ball/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/dx-ball)
+[Baca studi kasus](https://rea.one1.kdns.fr/id/showcase/dx-ball/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: menelusuri jembatan clipboard Electron
 
 Temukan API clipboard pada renderer, telusuri jalurnya melalui preload dan IPC hingga ke proses utama, lalu periksa format clipboard kaya.
 
-[Baca studi kasus](https://rea.tools/id/showcase/notion/)
+[Baca studi kasus](https://rea.one1.kdns.fr/id/showcase/notion/)
 
 ### TH04: memulihkan perhitungan bullet-ring DOS
 
 Periksa instruksi 16-bit dari gim PC-98 asli, pulihkan perhitungan sudut tetap dan sudut yang diarahkan, lalu bandingkan C++ hasil rekonstruksi dengan keluaran historis kompiler.
 
-[Baca studi kasus](https://rea.tools/id/showcase/th04/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/th04)
+[Baca studi kasus](https://rea.one1.kdns.fr/id/showcase/th04/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/th04)
 
 ### Bangun lingkungan RL dengan REA
 
 Rekam sesi aplikasi web, ubah API menjadi alat, lalu ekspor lingkungan yang dapat digunakan agen AI. Jalankan dengan AgentEnv dan tambahkan tugas serta pemeriksaan reward untuk pelatihan RL atau evaluasi.
 
-[Panduan membangun lingkungan](https://rea.tools/guides/rl-environments/) ·
+[Panduan membangun lingkungan](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Tonton demo di X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Jika Anda telah menggunakan REA untuk menganalisis sesuatu yang menarik, kami ingin melihat hasilnya. Bagikan kasus Anda melalui [issue](https://github.com/morluto/rea/issues) atau [pull request](https://github.com/morluto/rea/pulls), sertakan target, pertanyaan Anda, bagaimana REA membantu, dan apa yang Anda temukan.
@@ -277,7 +277,7 @@ agent-env run ./my-env
 
 REA mengekspor lingkungan yang dapat dijalankan dengan uji dasar untuk memeriksa bahwa lingkungan mulai dan merespons. Hubungkan ke framework RL untuk menetapkan tujuan tugas, menambahkan pemeriksaan reward, dan menjalankan pelatihan.
 
-[Panduan membangun lingkungan](https://rea.tools/guides/rl-environments/) ·
+[Panduan membangun lingkungan](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Referensi lingkungan](../agent-environments.md) ·
 [Tonton demo di X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -356,7 +356,7 @@ Coba kembali tugas yang sama. Jika masalah masih terjadi, [buat issue](https://g
 
 ## Dokumentasi
 
-Mulailah dengan [panduan praktik di situs web](https://rea.tools/id/guides/).
+Mulailah dengan [panduan praktik di situs web](https://rea.one1.kdns.fr/id/guides/).
 
 Untuk mengetahui opsi, prasyarat, dan kontrak hasil secara tepat:
 

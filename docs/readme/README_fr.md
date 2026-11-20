@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Site web](https://rea.tools/fr/) · [Guides](https://rea.tools/fr/guides/) · [Études de cas](https://rea.tools/fr/showcase/)**
+**[Site web](https://rea.one1.kdns.fr/fr/) · [Guides](https://rea.one1.kdns.fr/fr/guides/) · [Études de cas](https://rea.one1.kdns.fr/fr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Rejoignez la communauté REA sur Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> Sources officielles de REA : [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Sources officielles de REA : [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Utilisez les liens d’installation et de publication de ces sources officielles. Un nom de dépôt similaire ou un README copié ne prouve pas qu’un téléchargement est officiel.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA connecte votre agent à des outils d'inspection de binaires natifs, d'applic
 
 Setup enregistre REA auprès de votre agent et installe les instructions de workflow correspondantes. L'analyse native peut utiliser une installation existante de Hopper, de Ghidra, d'IDA ou de Kuna ; Setup peut aussi installer Hopper après votre accord. L'analyse statique JavaScript ne nécessite aucun moteur d'analyse natif.
 
-> **[Visitez le site web de REA](https://rea.tools/fr/)** pour les instructions d'installation, des guides illustrés et des études de cas réelles.
+> **[Visitez le site web de REA](https://rea.one1.kdns.fr/fr/)** pour les instructions d'installation, des guides illustrés et des études de cas réelles.
 
 ## Démarrage rapide
 
@@ -200,7 +200,7 @@ Les formats natifs et les hôtes pris en charge varient selon le fournisseur. Co
 
 ## Études de cas
 
-<a href="https://rea.tools/fr/showcase/">
+<a href="https://rea.one1.kdns.fr/fr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Illustrations des études sur la spatialisation sonore de DX-Ball, le pont du presse-papiers de Notion et le cercle de projectiles de TH04" src="../assets/rea-showcases.svg" />
@@ -211,25 +211,25 @@ Les formats natifs et les hôtes pris en charge varient selon le fournisseur. Co
 
 Suivez un appel sonore jusqu'à la fonction qui convertit une position en panoramique, inspectez ses instructions et transformez un pseudo-code incomplet en C. La reconstruction réussit 3 205 cas issus du x86 d'origine et reproduit à l'identique les 63 octets de la fonction compilée.
 
-[Lire l'étude de cas](https://rea.tools/fr/showcase/dx-ball/) · [Dépôt de la reconstruction](https://github.com/N0zoM1z0/dx-ball)
+[Lire l'étude de cas](https://rea.one1.kdns.fr/fr/showcase/dx-ball/) · [Dépôt de la reconstruction](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion : suivre le pont du presse-papiers d'Electron
 
 Trouvez l'API de presse-papiers du renderer, suivez-la à travers le preload et l'IPC jusqu'au processus principal, puis inspectez le format de presse-papiers enrichi.
 
-[Lire l'étude de cas](https://rea.tools/fr/showcase/notion/)
+[Lire l'étude de cas](https://rea.one1.kdns.fr/fr/showcase/notion/)
 
 ### TH04 : retrouver un calcul d'anneau de projectiles sous DOS
 
 Inspectez les instructions 16 bits du jeu PC-98 d'origine, retrouvez les calculs d'angles fixes et visés, et comparez le C++ reconstruit avec la sortie du compilateur d'époque.
 
-[Lire l'étude de cas](https://rea.tools/fr/showcase/th04/) · [Dépôt de la reconstruction](https://github.com/N0zoM1z0/th04)
+[Lire l'étude de cas](https://rea.one1.kdns.fr/fr/showcase/th04/) · [Dépôt de la reconstruction](https://github.com/N0zoM1z0/th04)
 
 ### Créer des environnements RL avec REA
 
 Enregistrez une session d’application web, transformez son API en outils et exportez un environnement utilisable par un agent IA. Exécutez-le avec AgentEnv, puis ajoutez des tâches et des vérifications de récompense pour l’entraînement RL ou l’évaluation.
 
-[Guide de création d’un environnement](https://rea.tools/guides/rl-environments/) ·
+[Guide de création d’un environnement](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Voir la démo sur X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Si vous avez utilisé REA sur un projet intéressant, nous serions ravis de le découvrir. Partagez votre cas dans une [issue](https://github.com/morluto/rea/issues) ou une [pull request](https://github.com/morluto/rea/pulls), en précisant la cible, votre question, la manière dont REA vous a aidé et ce que vous avez découvert.
@@ -266,7 +266,7 @@ agent-env run ./my-env
 
 REA exporte un environnement exécutable avec un test de base qui vérifie qu’il démarre et répond. Utilisez-le avec votre framework RL pour définir les objectifs, ajouter les vérifications de récompense et lancer l’entraînement.
 
-[Guide de création d’un environnement](https://rea.tools/guides/rl-environments/) ·
+[Guide de création d’un environnement](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Référence des environnements](../agent-environments.md) ·
 [Voir la démo sur X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -337,7 +337,7 @@ Si vous utilisez un agent, terminez l'[actualisation de la configuration](#mettr
 
 ## Documentation
 
-Commencez par les [guides pas à pas](https://rea.tools/fr/guides/) du site web. Pour les options exactes, les prérequis et les contrats de résultats :
+Commencez par les [guides pas à pas](https://rea.one1.kdns.fr/fr/guides/) du site web. Pour les options exactes, les prérequis et les contrats de résultats :
 
 - [Installation et configuration](../installation.md) : enregistrement des agents, configuration des fournisseurs, mises à jour et désinstallation.
 - [Vérification et dépannage](../installation.md#check-readiness-for-your-task) : diagnostiquer un agent ou un moteur d'analyse donné.

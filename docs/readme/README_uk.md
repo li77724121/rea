@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Сайт](https://rea.tools/uk/) · [Посібники](https://rea.tools/uk/guides/) · [Приклади](https://rea.tools/uk/showcase/)**
+**[Сайт](https://rea.one1.kdns.fr/uk/) · [Посібники](https://rea.one1.kdns.fr/uk/guides/) · [Приклади](https://rea.one1.kdns.fr/uk/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Приєднуйтеся до спільноти REA в Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> Офіційні джерела REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Офіційні джерела REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Користуйтеся посиланнями на встановлення та випуски з цих офіційних джерел. Схожа назва репозиторію або скопійований README не підтверджують, що завантажуваний файл є офіційним.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA підключає вашого агента до інструментів �
 
 Налаштування реєструє REA в агенті та встановлює відповідні інструкції. Нативний аналіз використовує наявний Hopper, Ghidra, IDA або Kuna; Hopper можна встановити після схвалення. Статичний аналіз JavaScript не потребує нативного рушія.
 
-> **[Відвідайте сайт REA](https://rea.tools/uk/)**, щоб знайти інструкції налаштування, ілюстровані посібники та реальні дослідження.
+> **[Відвідайте сайт REA](https://rea.one1.kdns.fr/uk/)**, щоб знайти інструкції налаштування, ілюстровані посібники та реальні дослідження.
 
 ## Швидкий старт
 
@@ -203,7 +203,7 @@ REA потребує Node.js 22.x (>=22.23.4), 24.x (>=24.22.1) або 26+ (>=26
 
 ## Приклади
 
-<a href="https://rea.tools/uk/showcase/">
+<a href="https://rea.one1.kdns.fr/uk/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Ілюстрації прикладів панорамування звуку в DX-Ball, мосту буфера обміну Notion та кільця куль у TH04" src="../assets/rea-showcases.svg" />
@@ -214,25 +214,25 @@ REA потребує Node.js 22.x (>=22.23.4), 24.x (>=24.22.1) або 26+ (>=26
 
 Простежте звуковий виклик до допоміжної функції, що перетворює координату на панорамування, перевірте інструкції та перетворіть неповний псевдокод на C. Відновлена реалізація проходить 3 205 тестів з оригінальним x86-кодом і відтворює всі 63 байти скомпільованої функції.
 
-[Прочитати дослідження](https://rea.tools/uk/showcase/dx-ball/) · [Репозиторій реконструкції](https://github.com/N0zoM1z0/dx-ball)
+[Прочитати дослідження](https://rea.one1.kdns.fr/uk/showcase/dx-ball/) · [Репозиторій реконструкції](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: відстеження мосту буфера обміну Electron
 
 Знайдіть API буфера обміну в процесі рендерингу, простежте його через preload та IPC до головного процесу й перевірте формат буфера обміну з даними форматування.
 
-[Прочитати дослідження](https://rea.tools/uk/showcase/notion/)
+[Прочитати дослідження](https://rea.one1.kdns.fr/uk/showcase/notion/)
 
 ### TH04: відновлення розрахунку кільця куль у DOS
 
 Перевірте 16-бітні інструкції оригінальної гри для PC-98, відновіть розрахунки фіксованих і прицільних кутів та порівняйте відновлений C++ із виводом тогочасного компілятора.
 
-[Прочитати дослідження](https://rea.tools/uk/showcase/th04/) · [Репозиторій реконструкції](https://github.com/N0zoM1z0/th04)
+[Прочитати дослідження](https://rea.one1.kdns.fr/uk/showcase/th04/) · [Репозиторій реконструкції](https://github.com/N0zoM1z0/th04)
 
 ### Створюйте RL-середовища з REA
 
 Запишіть сеанс вебзастосунку, перетворіть його API на інструменти й експортуйте середовище для ШІ-агента. Запустіть його з AgentEnv, а потім додайте завдання та перевірки винагород для RL-навчання або оцінювання.
 
-[Посібник зі створення середовища](https://rea.tools/guides/rl-environments/) ·
+[Посібник зі створення середовища](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Дивитися демо в X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Якщо ви дослідили з REA щось цікаве, поділіться результатом. Створіть [issue](https://github.com/morluto/rea/issues) або [pull request](https://github.com/morluto/rea/pulls) і вкажіть ціль, ваше запитання, як допоміг REA та що ви з'ясували.
@@ -269,7 +269,7 @@ agent-env run ./my-env
 
 REA експортує готове до запуску середовище з базовим тестом запуску й відповідей. Підключіть його до свого RL-фреймворку, щоб задати цілі, додати перевірки винагород і запустити навчання.
 
-[Посібник зі створення середовища](https://rea.tools/guides/rl-environments/) ·
+[Посібник зі створення середовища](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Довідник середовищ](../agent-environments.md) ·
 [Дивитися демо в X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -340,7 +340,7 @@ npx rea-agents@latest setup
 
 ## Документація
 
-Почніть із [практичних посібників](https://rea.tools/uk/guides/) на сайті. Точні параметри, передумови й контракти результатів описано тут:
+Почніть із [практичних посібників](https://rea.one1.kdns.fr/uk/guides/) на сайті. Точні параметри, передумови й контракти результатів описано тут:
 
 - [Встановлення й налаштування](../installation.md): реєстрація агентів, конфігурація провайдерів, оновлення та видалення.
 - [Готовність та усунення неполадок](../installation.md#check-readiness-for-your-task): діагностика конкретного агента або рушія аналізу.

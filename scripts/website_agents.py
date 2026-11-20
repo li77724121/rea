@@ -49,7 +49,7 @@ def prepare_discovery(root, site):
         }],
     })
     entry = {
-        "identifier": f"urn:air:rea.tools:skill:{name}",
+        "identifier": f"urn:air:rea.one1.kdns.fr:skill:{name}",
         "displayName": "REA reverse engineering skill",
         "description": description,
         "type": "application/zip",

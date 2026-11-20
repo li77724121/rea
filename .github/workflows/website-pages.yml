@@ -172,7 +172,7 @@ jobs:
               sys.exit("Unknown publication target: " + target)
           hosts = {"GitHub Pages": pages_url}
           if target == "both":
-              hosts["Cloudflare"] = "https://rea.tools/"
+              hosts["Cloudflare"] = "https://rea.one1.kdns.fr/"
           pending = dict(hosts)
           for attempt in range(24):
               for name, base in list(pending.items()):

@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[網站](https://rea.tools/zh-TW/) · [指南](https://rea.tools/zh-TW/guides/) · [案例](https://rea.tools/zh-TW/showcase/)**
+**[網站](https://rea.one1.kdns.fr/zh-TW/) · [指南](https://rea.one1.kdns.fr/zh-TW/guides/) · [案例](https://rea.one1.kdns.fr/zh-TW/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="加入 REA 的 Discord 社群" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA 官方來源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA 官方來源： [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 請透過這些官方來源提供的安裝與發布連結取得 REA。相似的儲存庫名稱或複製的 README 不能證明下載內容來自官方。
 
 <div align="center">
@@ -64,7 +64,7 @@ REA 將 AI 代理連接到分析工具，用於檢查原生二進位檔案、Jav
 
 設定流程會向 AI 代理註冊 REA，並安裝對應的工作流程指引。原生分析可以使用已有的 Hopper、Ghidra、IDA 或 Kuna；設定流程也可以在你核准後安裝 Hopper。靜態 JavaScript 分析不需要原生分析引擎。
 
-> **[訪問 REA 網站](https://rea.tools/zh-TW/)**，查看設定說明、圖解指南和真實案例。
+> **[訪問 REA 網站](https://rea.one1.kdns.fr/zh-TW/)**，查看設定說明、圖解指南和真實案例。
 
 ## 快速開始
 
@@ -201,7 +201,7 @@ REA 需要 Node.js 22.x（>=22.23.4）、24.x（>=24.22.1）或 26+ (>=26.12.1)�
 
 ## 案例
 
-<a href="https://rea.tools/zh-TW/showcase/">
+<a href="https://rea.one1.kdns.fr/zh-TW/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="DX-Ball 聲音平移、Notion 剪貼簿橋接與 TH04 彈幕環案例的插圖" src="../assets/rea-showcases.svg" />
@@ -212,27 +212,27 @@ REA 需要 Node.js 22.x（>=22.23.4）、24.x（>=24.22.1）或 26+ (>=26.12.1)�
 
 沿聲音呼叫追蹤到根據位置計算聲像的輔助函數，檢查指令，將不完整的偽程式碼轉為 C。重建結果通過了 3,205 個原始 x86 測試用例，並復現了編譯後函數的全部 63 個位元組。
 
-[閱讀案例](https://rea.tools/zh-TW/showcase/dx-ball/) ·
+[閱讀案例](https://rea.one1.kdns.fr/zh-TW/showcase/dx-ball/) ·
 [重建專案儲存庫](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion：追蹤 Electron 剪貼簿橋
 
 找到渲染處理程序的剪貼簿 API，沿 preload 和 IPC 追蹤到主處理程序，並檢查富格式剪貼簿資料。
 
-[閱讀案例](https://rea.tools/zh-TW/showcase/notion/)
+[閱讀案例](https://rea.one1.kdns.fr/zh-TW/showcase/notion/)
 
 ### TH04：恢復 DOS 環形子彈的計算
 
 檢查原始 PC-98 遊戲的 16 位指令，恢復固定角度和瞄準角度的計算，並將重建的 C++ 與當年的編譯器輸出進行對比。
 
-[閱讀案例](https://rea.tools/zh-TW/showcase/th04/) ·
+[閱讀案例](https://rea.one1.kdns.fr/zh-TW/showcase/th04/) ·
 [重建專案儲存庫](https://github.com/N0zoM1z0/th04)
 
 ### 用 REA 建立 RL 環境
 
 錄製 Web 應用程式工作階段，將 API 轉為工具，並匯出 AI 代理可使用的環境。用 AgentEnv 執行，再加入任務與獎勵檢查，用於 RL 訓練或評測。
 
-[建立環境指南](https://rea.tools/guides/rl-environments/) ·
+[建立環境指南](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [在 X 上觀看示範](https://x.com/reatools/status/2112574822584918075?s=20)
 
 如果你用 REA 分析了有趣的目標，我們很想瞭解。歡迎通過 [issue](https://github.com/morluto/rea/issues) 或 [pull request](https://github.com/morluto/rea/pulls) 分享案例，說明目標、你的問題、REA 如何提供幫助，以及你的發現。
@@ -269,7 +269,7 @@ agent-env run ./my-env
 
 REA 匯出可直接執行的環境，並附帶基本測試，檢查環境能否啟動與回應。將它接入 RL 框架，即可設定任務目標、加入獎勵檢查並執行訓練。
 
-[建立環境指南](https://rea.tools/guides/rl-environments/) ·
+[建立環境指南](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [環境參考文件](../agent-environments.md) ·
 [在 X 上觀看示範](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -340,7 +340,7 @@ npx rea-agents@latest setup
 
 ## 文件
 
-可以先閱讀網站上的[實操指南](https://rea.tools/zh-TW/guides/)。具體選項、前提條件和結果契約見：
+可以先閱讀網站上的[實操指南](https://rea.one1.kdns.fr/zh-TW/guides/)。具體選項、前提條件和結果契約見：
 
 - [安裝與設定](../installation.md)：AI 代理註冊、提供者組態、更新和卸載。
 - [就緒檢查與故障排查](../installation.md#check-readiness-for-your-task)：診斷特定 AI 代理或分析引擎。

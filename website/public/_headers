@@ -1,5 +1,5 @@
 /*
-  Link: <https://rea.tools/.well-known/ard.json>; rel="ard", <https://rea.tools/.well-known/ai-catalog.json>; rel="ai-catalog", <https://rea.tools/.well-known/agent-skills/index.json>; rel="related"; type="application/json"; title="Agent skills index"
+  Link: <https://rea.one1.kdns.fr/.well-known/ard.json>; rel="ard", <https://rea.one1.kdns.fr/.well-known/ai-catalog.json>; rel="ai-catalog", <https://rea.one1.kdns.fr/.well-known/agent-skills/index.json>; rel="related"; type="application/json"; title="Agent skills index"
 
 /.well-known/*
   Access-Control-Allow-Origin: *

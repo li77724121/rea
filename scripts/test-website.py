@@ -181,17 +181,17 @@ class WebsiteSearchChecks(unittest.TestCase):
             self.assertEqual(
                 urls(),
                 {
-                    "https://rea.tools/",
-                    "https://rea.tools/guides/new/",
-                    "https://rea.tools/code%20%26%20notes.html",
-                    "https://rea.tools/visible/",
+                    "https://rea.one1.kdns.fr/",
+                    "https://rea.one1.kdns.fr/guides/new/",
+                    "https://rea.one1.kdns.fr/code%20%26%20notes.html",
+                    "https://rea.one1.kdns.fr/visible/",
                 },
             )
             nested.rename(site / "moved.html")
-            self.assertIn("https://rea.tools/moved.html", urls())
-            self.assertNotIn("https://rea.tools/guides/new/", urls())
+            self.assertIn("https://rea.one1.kdns.fr/moved.html", urls())
+            self.assertNotIn("https://rea.one1.kdns.fr/guides/new/", urls())
             (site / "moved.html").unlink()
-            self.assertNotIn("https://rea.tools/moved.html", urls())
+            self.assertNotIn("https://rea.one1.kdns.fr/moved.html", urls())
 
     def test_verifier_rejects_wrong_canonicals_stale_sitemaps_and_missing_previews(
         self,
@@ -199,14 +199,14 @@ class WebsiteSearchChecks(unittest.TestCase):
         cases = (
             (
                 "index.html",
-                'rel="canonical" href="https://rea.tools/"',
+                'rel="canonical" href="https://rea.one1.kdns.fr/"',
                 'rel="canonical" href="https://morluto.github.io/rea/"',
                 "head canonical",
             ),
             (
                 "showcase/aegis/index.html",
-                'rel="canonical" href="https://rea.tools/showcase/aegis/"',
-                'rel="canonical" href="https://rea.tools/"',
+                'rel="canonical" href="https://rea.one1.kdns.fr/showcase/aegis/"',
+                'rel="canonical" href="https://rea.one1.kdns.fr/"',
                 "head canonical",
             ),
             (
@@ -217,8 +217,8 @@ class WebsiteSearchChecks(unittest.TestCase):
             ),
             (
                 "sitemap.xml",
-                "https://rea.tools/faq/",
-                "https://rea.tools/deleted/",
+                "https://rea.one1.kdns.fr/faq/",
+                "https://rea.one1.kdns.fr/deleted/",
                 "each indexable page once",
             ),
             (
@@ -404,10 +404,10 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
                 WEBSITE.new_page(root, "../outside", "Title", "Description")
             WEBSITE.sync_pages(root, check=True)
             PREPARE.prepare_sitemap(site)
-            self.assertNotIn("https://rea.tools/blog/new-example/", (site / "sitemap.xml").read_text())
+            self.assertNotIn("https://rea.one1.kdns.fr/blog/new-example/", (site / "sitemap.xml").read_text())
             page.write_text(source.replace('    <meta name="robots" content="noindex" />\n', ''))
             PREPARE.prepare_sitemap(site)
-            self.assertIn("https://rea.tools/blog/new-example/", (site / "sitemap.xml").read_text())
+            self.assertIn("https://rea.one1.kdns.fr/blog/new-example/", (site / "sitemap.xml").read_text())
             self.assertEqual(VERIFY.check_site(site)[3], [])
 
     def test_links_in_prompts_fragments_and_copy_controls_are_verified(self):
@@ -417,8 +417,8 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
             page = site / "faq/index.html"
             original = page.read_text()
             cases = (
-                ('<a href="https://rea.tools/deleted/">Broken</a>', "missing local target"),
-                ('<code>https://rea.tools/guides/native/#deleted</code>', "missing HTML fragment"),
+                ('<a href="https://rea.one1.kdns.fr/deleted/">Broken</a>', "missing local target"),
+                ('<code>https://rea.one1.kdns.fr/guides/native/#deleted</code>', "missing HTML fragment"),
                 ('<code>https://morluto.github.io/rea/examples/notes-web/</code>', "obsolete website URL"),
                 ('<button data-copy="deleted">Copy</button>', "missing copy target"),
                 ('<a href="https://[">Malformed</a>', "invalid URL"),
@@ -470,7 +470,7 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
             page.write_text(
                 page.read_text().replace(
                     "</main>",
-                    '<a href="https://rea.tools/../../outside/">Escape</a></main>',
+                    '<a href="https://rea.one1.kdns.fr/../../outside/">Escape</a></main>',
                     1,
                 )
             )
@@ -507,7 +507,7 @@ class WebsiteMaintenanceChecks(unittest.TestCase):
             page.write_text('<html lang="en"><head><title>Fixture</title><meta name="robots" content="noindex"></head><body><h1>Fixture</h1><a href="guide.html#answer">Guide</a></body></html>')
             (site / "guide.html").write_text('<html lang="en"><head><title>Guide</title><meta name="robots" content="noindex"></head><body><h1 id="answer">Answer</h1></body></html>')
             (site / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>')
-            (site / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://rea.tools/sitemap.xml\n")
+            (site / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://rea.one1.kdns.fr/sitemap.xml\n")
             alias = Path(directory) / "site-alias"
             alias.symlink_to(site, target_is_directory=True)
             # The tiny link fixture intentionally omits the social preview.
@@ -584,7 +584,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
             for code in ("ur-Latn", "ur-Latn-PK"):
                 path = site / code / "index.html"
                 path.parent.mkdir()
-                url = f"https://rea.tools/{code}/"
+                url = f"https://rea.one1.kdns.fr/{code}/"
                 source = dedent(f'''\
                     <!doctype html>
                     <html lang="{code}" dir="ltr">
@@ -598,7 +598,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
                       <meta property="og:title" content="REA ka ta'aruf" />
                       <meta property="og:description" content="REA ko samjhein." />
                       <meta property="og:url" content="{url}" />
-                      <meta property="og:image" content="https://rea.tools/assets/social-card.png" />
+                      <meta property="og:image" content="https://rea.one1.kdns.fr/assets/social-card.png" />
                       <meta property="og:image:type" content="image/png" />
                       <meta property="og:image:width" content="1200" />
                       <meta property="og:image:height" content="630" />
@@ -606,7 +606,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
                       <meta name="twitter:card" content="summary_large_image" />
                       <meta name="twitter:title" content="REA ka ta'aruf" />
                       <meta name="twitter:description" content="REA ko samjhein." />
-                      <meta name="twitter:image" content="https://rea.tools/assets/social-card.png" />
+                      <meta name="twitter:image" content="https://rea.one1.kdns.fr/assets/social-card.png" />
                       <meta name="twitter:image:alt" content="REA" />
                     </head>
                     <body><h1>REA ka ta'aruf</h1></body>
@@ -663,7 +663,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
             self.assertTrue(fallback.translation_fallback)
             self.assertTrue(fallback.noindex())
             self.assertEqual(fallback.lang, "en")
-            self.assertNotIn("https://rea.tools/zh-CN/faq/", (site / "sitemap.xml").read_text())
+            self.assertNotIn("https://rea.one1.kdns.fr/zh-CN/faq/", (site / "sitemap.xml").read_text())
             self.assertNotIn('hreflang="zh-CN"', (site / "faq/index.html").read_text())
             new.msgstr = "现在如何安装 REA？"
             new.flags.append("fuzzy")
@@ -679,7 +679,7 @@ class WebsiteTranslationChecks(unittest.TestCase):
             self.assertNotIn("data-translation-fallback", result)
             self.assertIn('href="../assets/styles.css"', (site / "zh-CN/index.html").read_text())
             self.assertIn('hreflang="zh-CN"', (site / "faq/index.html").read_text())
-            self.assertIn("https://rea.tools/zh-CN/faq/", (site / "sitemap.xml").read_text())
+            self.assertIn("https://rea.one1.kdns.fr/zh-CN/faq/", (site / "sitemap.xml").read_text())
 
     def test_broken_placeholders_and_inline_markup_fail_before_replacing_preview(self):
         with self.translated_project() as root:

@@ -24,7 +24,7 @@ class AgentPublishingChecks(unittest.TestCase):
         skill, = index["skills"]
         self.assertEqual(skill["name"], "reverse-engineer-anything")
         self.assertEqual(skill["type"], "archive")
-        artifact = site / skill["url"].removeprefix("https://rea.tools/")
+        artifact = site / skill["url"].removeprefix("https://rea.one1.kdns.fr/")
         self.assertEqual(skill["digest"], "sha256:" + hashlib.sha256(artifact.read_bytes()).hexdigest())
         source = ROOT / ".agents/skills/reverse-engineer-anything"
         with ZipFile(artifact) as archive:
@@ -39,7 +39,7 @@ class AgentPublishingChecks(unittest.TestCase):
         catalog = json.loads((site / ".well-known/ai-catalog.json").read_text())
         self.assertEqual(catalog["specVersion"], "1.0")
         entry, = catalog["entries"]
-        self.assertEqual(entry["identifier"], "urn:air:rea.tools:skill:reverse-engineer-anything")
+        self.assertEqual(entry["identifier"], "urn:air:rea.one1.kdns.fr:skill:reverse-engineer-anything")
         self.assertEqual(entry["url"], skill["url"])
         self.assertNotIn("data", entry)
         ard = json.loads((site / ".well-known/ard.json").read_text())
@@ -95,14 +95,14 @@ class AgentPublishingChecks(unittest.TestCase):
             self.assertIn("Hidden evidence remains available.", markdown)
             self.assertIn("Shortened display paths.", markdown)
             self.assertNotIn("Read`input.exe`", markdown)
-            self.assertIn("https://rea.tools/zh-CN/guides/other/?q=a%2Fb#code", markdown)
-            self.assertIn("https://rea.tools/assets/diagram.svg", markdown)
+            self.assertIn("https://rea.one1.kdns.fr/zh-CN/guides/other/?q=a%2Fb#code", markdown)
+            self.assertIn("https://rea.one1.kdns.fr/assets/diagram.svg", markdown)
             for text in ("Outside navigation", "Contents navigation", "Copy code", "doNotPublish"):
                 self.assertNotIn(text, markdown)
             self.assertFalse(fixture.with_suffix(".md").exists())
             self.assertFalse(fallback.with_suffix(".md").exists())
             html = BeautifulSoup(page.read_text(), "html.parser")
-            self.assertEqual(html.find("link", rel="alternate")["href"], "https://rea.tools/zh-CN/guides/test/index.md")
+            self.assertEqual(html.find("link", rel="alternate")["href"], "https://rea.one1.kdns.fr/zh-CN/guides/test/index.md")
 
 
 if __name__ == "__main__":

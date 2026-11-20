@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Website](https://rea.tools/) · [Guides](https://rea.tools/guides/) · [Showcases](https://rea.tools/showcase/)**
+**[Website](https://rea.one1.kdns.fr/) · [Guides](https://rea.one1.kdns.fr/guides/) · [Showcases](https://rea.one1.kdns.fr/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Join the REA community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -30,7 +30,7 @@
 
 > [!IMPORTANT]
 > Get REA from [morluto/rea](https://github.com/morluto/rea),
-> [rea.tools](https://rea.tools/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
+> [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
 > Follow the installation and release links from these official sources. A similar
 > repository name or copied README does not establish that a download is official.
 
@@ -66,7 +66,7 @@ REA connects your agent to tools for inspecting native binaries, JavaScript and 
 
 Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, IDA or Kuna installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine.
 
-> **[Visit the REA website](https://rea.tools/)** for setup instructions, illustrated guides, and real case studies.
+> **[Visit the REA website](https://rea.one1.kdns.fr/)** for setup instructions, illustrated guides, and real case studies.
 
 ## Quick start
 
@@ -256,7 +256,7 @@ for features added since the latest npm release.
 
 ## Showcases
 
-<a href="https://rea.tools/showcase/">
+<a href="https://rea.one1.kdns.fr/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/rea-showcases-dark.svg" />
     <img alt="Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases" src="docs/assets/rea-showcases.svg" />
@@ -269,7 +269,7 @@ Follow a sound call into its position-to-pan helper, inspect the instructions,
 and turn incomplete pseudocode into C. The reconstruction passes 3,205
 original-x86 cases and reproduces all 63 compiled function bytes.
 
-[Read the case study](https://rea.tools/showcase/dx-ball/) ·
+[Read the case study](https://rea.one1.kdns.fr/showcase/dx-ball/) ·
 [Reconstruction repository](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: trace the Electron clipboard bridge
@@ -277,7 +277,7 @@ original-x86 cases and reproduces all 63 compiled function bytes.
 Find the renderer's clipboard API, follow it through preload and IPC into the
 main process, and inspect the rich clipboard format.
 
-[Read the case study](https://rea.tools/showcase/notion/)
+[Read the case study](https://rea.one1.kdns.fr/showcase/notion/)
 
 ### TH04: recover a DOS bullet-ring calculation
 
@@ -285,14 +285,14 @@ Inspect the original PC-98 game's 16-bit instructions, recover the fixed and
 aimed angle calculations, and compare the reconstructed C++ with the
 historical compiler output.
 
-[Read the case study](https://rea.tools/showcase/th04/) ·
+[Read the case study](https://rea.one1.kdns.fr/showcase/th04/) ·
 [Reconstruction repository](https://github.com/N0zoM1z0/th04)
 
 ### Build RL environments with REA
 
 Record a web app session, turn its API into tools, and export an environment an AI agent can use. Run it with AgentEnv, then add tasks and reward checks for RL training or evaluation.
 
-[Read the guide](https://rea.tools/guides/rl-environments/) ·
+[Read the guide](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Watch the video](https://x.com/reatools/status/2112574822584918075?s=20)
 
 If you've used REA on something interesting, we'd love to see it. Share your
@@ -331,7 +331,7 @@ agent-env run ./my-env
 
 REA exports a runnable environment with a basic test to check that it starts and responds. Use it with your RL framework to define task goals, add reward checks, and run training.
 
-[Build an environment](https://rea.tools/guides/rl-environments/) ·
+[Build an environment](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Environment reference](docs/agent-environments.md) ·
 [Watch the demo on X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -419,7 +419,7 @@ with your REA version, target type, steps to reproduce and error output.
 
 ## Documentation
 
-Start with the website's [worked guides](https://rea.tools/guides/).
+Start with the website's [worked guides](https://rea.one1.kdns.fr/guides/).
 For exact options, prerequisites and result contracts:
 
 - [Installation and setup](docs/installation.md): agent registration, provider configuration, updates and uninstall.

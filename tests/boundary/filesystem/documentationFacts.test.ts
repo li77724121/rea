@@ -29,11 +29,11 @@ const README_LINK_DRIFT_MUTATIONS = [
     "(../installation.md#supported-agents)",
     "(../installation.md#missing-agents)",
   ],
-  ["https://rea.tools/zh-CN/guides/", "https://rea.tools/zh-CN/missing/"],
-  ["https://rea.tools/zh-CN/guides/", "https://rea.tools/zh-TW/guides/"],
+  ["https://rea.one1.kdns.fr/zh-CN/guides/", "https://rea.one1.kdns.fr/zh-CN/missing/"],
+  ["https://rea.one1.kdns.fr/zh-CN/guides/", "https://rea.one1.kdns.fr/zh-TW/guides/"],
   [
-    "https://rea.tools/zh-CN/guides/",
-    "https://rea.tools/zh-CN/guides/?other=1",
+    "https://rea.one1.kdns.fr/zh-CN/guides/",
+    "https://rea.one1.kdns.fr/zh-CN/guides/?other=1",
   ],
   [
     'src="../assets/rea-hopper-analysis.png"',

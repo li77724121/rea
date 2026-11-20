@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Trang web](https://rea.tools/vi/) · [Hướng dẫn](https://rea.tools/vi/guides/) · [Các nghiên cứu điển hình](https://rea.tools/vi/showcase/)**
+**[Trang web](https://rea.one1.kdns.fr/vi/) · [Hướng dẫn](https://rea.one1.kdns.fr/vi/guides/) · [Các nghiên cứu điển hình](https://rea.one1.kdns.fr/vi/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="Tham gia cộng đồng REA trên Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> Các nguồn chính thức của REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Các nguồn chính thức của REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Hãy dùng các liên kết cài đặt và bản phát hành từ những nguồn chính thức này. Tên kho mã tương tự hoặc README được sao chép không chứng minh rằng tệp tải xuống là bản chính thức.
 
 <div align="center">
@@ -64,7 +64,7 @@ REA kết nối tác nhân của bạn với các công cụ kiểm tra tệp nh
 
 Thiết lập đăng ký REA với tác nhân và cài hướng dẫn công việc tương ứng. Phân tích native dùng Hopper, Ghidra, IDA hoặc Kuna có sẵn; có thể cài Hopper sau khi bạn chấp thuận. Phân tích tĩnh JavaScript không cần công cụ phân tích native.
 
-> **[Truy cập trang web REA](https://rea.tools/vi/)** để xem cách thiết lập, hướng dẫn có hình minh họa và các nghiên cứu điển hình thực tế.
+> **[Truy cập trang web REA](https://rea.one1.kdns.fr/vi/)** để xem cách thiết lập, hướng dẫn có hình minh họa và các nghiên cứu điển hình thực tế.
 
 ## Bắt đầu nhanh
 
@@ -203,7 +203,7 @@ Với tệp nhị phân lớn, tăng hạn khởi động bằng `REA_GHIDRA_STA
 
 ## Các nghiên cứu điển hình
 
-<a href="https://rea.tools/vi/showcase/">
+<a href="https://rea.one1.kdns.fr/vi/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="Minh họa các ví dụ về cân bằng âm thanh DX-Ball, cầu nối bảng nhớ tạm Notion và vòng đạn TH04" src="../assets/rea-showcases.svg" />
@@ -214,25 +214,25 @@ Với tệp nhị phân lớn, tăng hạn khởi động bằng `REA_GHIDRA_STA
 
 Lần theo lời gọi âm thanh đến hàm hỗ trợ chuyển vị trí thành giá trị phân bố âm thanh, kiểm tra các lệnh và chuyển mã giả chưa đầy đủ sang C. Bản tái tạo vượt qua 3.205 trường hợp kiểm thử với x86 gốc và tái tạo đủ 63 byte của hàm đã biên dịch.
 
-[Đọc nghiên cứu điển hình](https://rea.tools/vi/showcase/dx-ball/) · [Kho mã tái tạo](https://github.com/N0zoM1z0/dx-ball)
+[Đọc nghiên cứu điển hình](https://rea.one1.kdns.fr/vi/showcase/dx-ball/) · [Kho mã tái tạo](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: lần theo cầu nối clipboard của Electron
 
 Tìm API clipboard trong tiến trình kết xuất, lần theo qua preload và IPC đến tiến trình chính, rồi kiểm tra định dạng clipboard có dữ liệu định dạng phong phú.
 
-[Đọc nghiên cứu điển hình](https://rea.tools/vi/showcase/notion/)
+[Đọc nghiên cứu điển hình](https://rea.one1.kdns.fr/vi/showcase/notion/)
 
 ### TH04: khôi phục phép tính vòng đạn trong DOS
 
 Kiểm tra các lệnh 16 bit của trò chơi PC-98 gốc, khôi phục phép tính góc cố định và góc nhắm mục tiêu, rồi so sánh C++ được tái tạo với đầu ra của trình biên dịch thời đó.
 
-[Đọc nghiên cứu điển hình](https://rea.tools/vi/showcase/th04/) · [Kho mã tái tạo](https://github.com/N0zoM1z0/th04)
+[Đọc nghiên cứu điển hình](https://rea.one1.kdns.fr/vi/showcase/th04/) · [Kho mã tái tạo](https://github.com/N0zoM1z0/th04)
 
 ### Xây dựng môi trường RL bằng REA
 
 Ghi phiên ứng dụng web, chuyển API thành công cụ và xuất môi trường mà tác tử AI có thể dùng. Chạy bằng AgentEnv, rồi thêm tác vụ và kiểm tra phần thưởng để huấn luyện RL hoặc đánh giá.
 
-[Hướng dẫn xây dựng môi trường](https://rea.tools/guides/rl-environments/) ·
+[Hướng dẫn xây dựng môi trường](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Xem bản demo trên X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 Nếu bạn dùng REA cho một mục tiêu thú vị, chúng tôi muốn biết. Chia sẻ trường hợp của bạn qua [issue](https://github.com/morluto/rea/issues) hoặc [pull request](https://github.com/morluto/rea/pulls), nêu mục tiêu, câu hỏi, cách REA giúp bạn và những gì tìm được.
@@ -269,7 +269,7 @@ agent-env run ./my-env
 
 REA xuất môi trường chạy được cùng bài kiểm tra cơ bản để xác nhận môi trường khởi động và phản hồi. Kết nối với framework RL để đặt mục tiêu tác vụ, thêm kiểm tra phần thưởng và chạy huấn luyện.
 
-[Hướng dẫn xây dựng môi trường](https://rea.tools/guides/rl-environments/) ·
+[Hướng dẫn xây dựng môi trường](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [Tài liệu tham chiếu môi trường](../agent-environments.md) ·
 [Xem bản demo trên X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -340,7 +340,7 @@ Nếu dùng tác nhân, hãy hoàn tất [làm mới thiết lập](#cập-nhậ
 
 ## Tài liệu
 
-Bắt đầu với [hướng dẫn thực hành](https://rea.tools/vi/guides/) trên trang web. Để biết tùy chọn cụ thể, điều kiện tiên quyết và hợp đồng kết quả:
+Bắt đầu với [hướng dẫn thực hành](https://rea.one1.kdns.fr/vi/guides/) trên trang web. Để biết tùy chọn cụ thể, điều kiện tiên quyết và hợp đồng kết quả:
 
 - [Cài đặt và thiết lập](../installation.md): đăng ký tác nhân, cấu hình trình phân tích, cập nhật và gỡ cài đặt.
 - [Kiểm tra mức sẵn sàng và khắc phục sự cố](../installation.md#check-readiness-for-your-task): chẩn đoán một tác nhân hoặc bộ máy phân tích cụ thể.

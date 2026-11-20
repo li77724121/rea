@@ -6,7 +6,7 @@
     "name": "morluto",
     "url": "https://github.com/morluto"
   },
-  "homepage": "https://rea.tools/",
+  "homepage": "https://rea.one1.kdns.fr/",
   "repository": "https://github.com/morluto/rea",
   "license": "MIT",
   "keywords": [
@@ -28,7 +28,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://rea.tools/",
+    "websiteURL": "https://rea.one1.kdns.fr/",
     "defaultPrompt": [
       "Use REA to explain how this binary implements a feature.",
       "Use REA to compare two versions of this application.",

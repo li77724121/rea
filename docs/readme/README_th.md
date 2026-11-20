@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[เว็บไซต์](https://rea.tools/th/) · [คู่มือ](https://rea.tools/th/guides/) · [ตัวอย่างการใช้งาน](https://rea.tools/th/showcase/)**
+**[เว็บไซต์](https://rea.one1.kdns.fr/th/) · [คู่มือ](https://rea.one1.kdns.fr/th/guides/) · [ตัวอย่างการใช้งาน](https://rea.one1.kdns.fr/th/showcase/)**
 
 <a href="https://discord.com/invite/GkcryMnJDM"><img alt="เข้าร่วมชุมชน REA บน Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 
@@ -29,7 +29,7 @@
 </div>
 
 > [!IMPORTANT]
-> แหล่งทางการของ REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> แหล่งทางการของ REA: [morluto/rea](https://github.com/morluto/rea), [rea.one1.kdns.fr](https://rea.one1.kdns.fr/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > โปรดใช้ลิงก์ติดตั้งและรุ่นเผยแพร่จากแหล่งทางการเหล่านี้ ชื่อที่เก็บโค้ดที่คล้ายกันหรือ README ที่คัดลอกมาไม่ได้ยืนยันว่าไฟล์ดาวน์โหลดเป็นของทางการ
 
 <div align="center">
@@ -64,7 +64,7 @@ REA เชื่อมเอเจนต์ของคุณกับเคร�
 
 การตั้งค่าลงทะเบียน REA กับเอเจนต์และติดตั้งคำแนะนำการทำงานที่ตรงกัน การวิเคราะห์เนทีฟใช้ Hopper, Ghidra, IDA หรือ Kuna ที่มีอยู่ได้ และติดตั้ง Hopper ได้เมื่อคุณอนุมัติ การวิเคราะห์ JavaScript แบบสแตติกไม่ต้องใช้เอนจินวิเคราะห์เนทีฟ
 
-> **[เยี่ยมชมเว็บไซต์ REA](https://rea.tools/th/)** เพื่อดูคำแนะนำการตั้งค่า คู่มือพร้อมภาพประกอบ และกรณีศึกษาจริง
+> **[เยี่ยมชมเว็บไซต์ REA](https://rea.one1.kdns.fr/th/)** เพื่อดูคำแนะนำการตั้งค่า คู่มือพร้อมภาพประกอบ และกรณีศึกษาจริง
 
 ## เริ่มต้นอย่างรวดเร็ว
 
@@ -203,7 +203,7 @@ REA ต้องใช้ Node.js 22.x (>=22.23.4), 24.x (>=24.22.1) หรื�
 
 ## ตัวอย่างการใช้งาน
 
-<a href="https://rea.tools/th/showcase/">
+<a href="https://rea.one1.kdns.fr/th/showcase/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/rea-showcases-dark.svg" />
     <img alt="ภาพประกอบกรณีศึกษาการแพนเสียงใน DX-Ball บริดจ์คลิปบอร์ดของ Notion และวงแหวนกระสุนใน TH04" src="../assets/rea-showcases.svg" />
@@ -214,25 +214,25 @@ REA ต้องใช้ Node.js 22.x (>=22.23.4), 24.x (>=24.22.1) หรื�
 
 ติดตามการเรียกเสียงไปยังฟังก์ชันช่วยแปลงตำแหน่งเป็นค่าแพน ตรวจสอบคำสั่ง และแปลงโค้ดเทียมที่ยังไม่สมบูรณ์เป็น C การสร้างขึ้นใหม่นี้ผ่านการทดสอบ 3,205 กรณีเทียบกับ x86 ต้นฉบับ และสร้างไบต์ทั้ง 63 ไบต์ของฟังก์ชันที่คอมไพล์แล้วได้ตรงกัน
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/dx-ball/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/dx-ball)
+[อ่านกรณีศึกษา](https://rea.one1.kdns.fr/th/showcase/dx-ball/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: ติดตามบริดจ์คลิปบอร์ดของ Electron
 
 ค้นหา API คลิปบอร์ดของ renderer ติดตามผ่าน preload และ IPC ไปยังโปรเซสหลัก แล้วตรวจสอบรูปแบบคลิปบอร์ดที่มีข้อมูลการจัดรูปแบบ
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/notion/)
+[อ่านกรณีศึกษา](https://rea.one1.kdns.fr/th/showcase/notion/)
 
 ### TH04: กู้คืนการคำนวณวงแหวนกระสุนของ DOS
 
 ตรวจสอบคำสั่ง 16 บิตของเกมต้นฉบับบน PC-98 กู้คืนการคำนวณมุมคงที่และมุมเล็งเป้าหมาย แล้วเปรียบเทียบ C++ ที่สร้างขึ้นใหม่กับผลลัพธ์จากคอมไพเลอร์ในยุคนั้น
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/th04/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/th04)
+[อ่านกรณีศึกษา](https://rea.one1.kdns.fr/th/showcase/th04/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/th04)
 
 ### สร้างสภาพแวดล้อม RL ด้วย REA
 
 บันทึกเซสชันเว็บแอป เปลี่ยน API เป็นเครื่องมือ และส่งออกสภาพแวดล้อมที่เอเจนต์ AI ใช้ได้ รันด้วย AgentEnv แล้วเพิ่มงานและการตรวจสอบรางวัลสำหรับการฝึก RL หรือการประเมิน
 
-[คู่มือสร้างสภาพแวดล้อม](https://rea.tools/guides/rl-environments/) ·
+[คู่มือสร้างสภาพแวดล้อม](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [ชมเดโมบน X](https://x.com/reatools/status/2112574822584918075?s=20)
 
 หากคุณใช้ REA กับสิ่งที่น่าสนใจ เราอยากเห็นผลงานของคุณ แบ่งปันกรณีของคุณผ่าน [issue](https://github.com/morluto/rea/issues) หรือ [pull request](https://github.com/morluto/rea/pulls) พร้อมระบุเป้าหมาย คำถามของคุณ REA ช่วยอย่างไร และสิ่งที่คุณค้นพบ
@@ -269,7 +269,7 @@ agent-env run ./my-env
 
 REA ส่งออกสภาพแวดล้อมที่รันได้พร้อมการทดสอบพื้นฐานว่าเริ่มทำงานและตอบสนองได้ เชื่อมต่อกับเฟรมเวิร์ก RL เพื่อกำหนดเป้าหมายงาน เพิ่มการตรวจสอบรางวัล และฝึกเอเจนต์
 
-[คู่มือสร้างสภาพแวดล้อม](https://rea.tools/guides/rl-environments/) ·
+[คู่มือสร้างสภาพแวดล้อม](https://rea.one1.kdns.fr/guides/rl-environments/) ·
 [เอกสารอ้างอิงสภาพแวดล้อม](../agent-environments.md) ·
 [ชมเดโมบน X](https://x.com/reatools/status/2112574822584918075?s=20)
 
@@ -340,7 +340,7 @@ npx rea-agents@latest setup
 
 ## เอกสาร
 
-เริ่มจาก[คู่มือพร้อมตัวอย่าง](https://rea.tools/th/guides/) บนเว็บไซต์ สำหรับตัวเลือก ข้อกำหนดเบื้องต้น และสัญญาผลลัพธ์ที่แน่นอน:
+เริ่มจาก[คู่มือพร้อมตัวอย่าง](https://rea.one1.kdns.fr/th/guides/) บนเว็บไซต์ สำหรับตัวเลือก ข้อกำหนดเบื้องต้น และสัญญาผลลัพธ์ที่แน่นอน:
 
 - [การติดตั้งและตั้งค่า](../installation.md): การลงทะเบียนเอเจนต์ การตั้งค่าผู้ให้บริการ การอัปเดต และการถอนการติดตั้ง
 - [ความพร้อมใช้งานและการแก้ไขปัญหา](../installation.md#check-readiness-for-your-task): ตรวจวินิจฉัยเอเจนต์หรือเอนจินวิเคราะห์หนึ่งตัว
